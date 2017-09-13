@@ -1,0 +1,7 @@
+#Wed Sep 13 12:36:14 PDT 2017
+base.0=/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_390133583f97d5ae258127ee98de972922b212c6
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4bb012531808bf62891e5c5b19482fa30ee86c03/classes.dex
+base.1=/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4bb012531808bf62891e5c5b19482fa30ee86c03
+file.0=/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_390133583f97d5ae258127ee98de972922b212c6/classes.dex
