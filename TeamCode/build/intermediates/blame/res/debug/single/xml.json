@@ -4,6 +4,14 @@
         "source": "/Users/William/.android/build-cache/8a856564b19c01984e4f89a5329b11377d65d6d9/output/res/xml/k9legacybot.xml"
     },
     {
+        "merged": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/res/merged/debug/xml/k9usbbot.xml",
+        "source": "/Users/William/.android/build-cache/208dce0583c71c2a8916f65a530b06e62a093e3a/output/res/xml/k9usbbot.xml"
+    },
+    {
+        "merged": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/res/merged/debug/xml/maxmodules.xml",
+        "source": "/Users/William/.android/build-cache/208dce0583c71c2a8916f65a530b06e62a093e3a/output/res/xml/maxmodules.xml"
+    },
+    {
         "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/xml/squarebot.xml",
         "source": "/Users/William/.android/build-cache/8a856564b19c01984e4f89a5329b11377d65d6d9/output/res/xml/squarebot.xml"
     },
@@ -16,8 +24,20 @@
         "source": "/Users/William/AndroidStudioProjects/ftc_app-master/FtcRobotController/build/intermediates/bundles/default/res/xml/app_settings.xml"
     },
     {
+        "merged": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/res/merged/debug/xml/advanced_rc_settings.xml",
+        "source": "/Users/William/.android/build-cache/208dce0583c71c2a8916f65a530b06e62a093e3a/output/res/xml/advanced_rc_settings.xml"
+    },
+    {
+        "merged": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/res/merged/debug/xml/app_settings.xml",
+        "source": "/Users/William/AndroidStudioProjects/code17-18/FtcRobotController/build/intermediates/bundles/default/res/xml/app_settings.xml"
+    },
+    {
         "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/xml/pushbotsens.xml",
         "source": "/Users/William/.android/build-cache/8a856564b19c01984e4f89a5329b11377d65d6d9/output/res/xml/pushbotsens.xml"
+    },
+    {
+        "merged": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/res/merged/debug/xml/k9legacybot.xml",
+        "source": "/Users/William/.android/build-cache/208dce0583c71c2a8916f65a530b06e62a093e3a/output/res/xml/k9legacybot.xml"
     },
     {
         "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/xml/advanced_rc_settings.xml",
@@ -28,8 +48,20 @@
         "source": "/Users/William/.android/build-cache/8a856564b19c01984e4f89a5329b11377d65d6d9/output/res/xml/k9usbbot.xml"
     },
     {
+        "merged": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/res/merged/debug/xml/squarebot.xml",
+        "source": "/Users/William/.android/build-cache/208dce0583c71c2a8916f65a530b06e62a093e3a/output/res/xml/squarebot.xml"
+    },
+    {
         "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/xml/maxmodules.xml",
         "source": "/Users/William/.android/build-cache/8a856564b19c01984e4f89a5329b11377d65d6d9/output/res/xml/maxmodules.xml"
+    },
+    {
+        "merged": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/res/merged/debug/xml/device_filter.xml",
+        "source": "/Users/William/AndroidStudioProjects/code17-18/FtcRobotController/build/intermediates/bundles/default/res/xml/device_filter.xml"
+    },
+    {
+        "merged": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/res/merged/debug/xml/pushbotsens.xml",
+        "source": "/Users/William/.android/build-cache/208dce0583c71c2a8916f65a530b06e62a093e3a/output/res/xml/pushbotsens.xml"
     },
     {
         "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/xml/pushbot.xml",
@@ -38,5 +70,13 @@
     {
         "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/xml/rev_scoot.xml",
         "source": "/Users/William/.android/build-cache/8a856564b19c01984e4f89a5329b11377d65d6d9/output/res/xml/rev_scoot.xml"
+    },
+    {
+        "merged": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/res/merged/debug/xml/rev_scoot.xml",
+        "source": "/Users/William/.android/build-cache/208dce0583c71c2a8916f65a530b06e62a093e3a/output/res/xml/rev_scoot.xml"
+    },
+    {
+        "merged": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/res/merged/debug/xml/pushbot.xml",
+        "source": "/Users/William/.android/build-cache/208dce0583c71c2a8916f65a530b06e62a093e3a/output/res/xml/pushbot.xml"
     }
 ]

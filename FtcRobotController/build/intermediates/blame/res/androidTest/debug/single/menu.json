@@ -8,7 +8,19 @@
         "source": "/Users/William/AndroidStudioProjects/ftc_app-master/FtcRobotController/build/intermediates/bundles/debug/res/menu/ftc_robot_controller.xml"
     },
     {
+        "merged": "/Users/William/AndroidStudioProjects/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu/ftc_robot_controller.xml",
+        "source": "/Users/William/AndroidStudioProjects/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/menu/ftc_robot_controller.xml"
+    },
+    {
+        "merged": "/Users/William/AndroidStudioProjects/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu/main_menu.xml",
+        "source": "/Users/William/.android/build-cache/ea45da40c81be867791ed9cc0292cbfa5fda7fa3/output/res/menu/main_menu.xml"
+    },
+    {
         "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu/menu_server.xml",
         "source": "/Users/William/.android/build-cache/e01fc514a0e8a788f799716b6c2b12116c1d0ec9/output/res/menu/menu_server.xml"
+    },
+    {
+        "merged": "/Users/William/AndroidStudioProjects/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu/menu_server.xml",
+        "source": "/Users/William/.android/build-cache/2ebad59159bba5c07e59daab581b8b740b574a6e/output/res/menu/menu_server.xml"
     }
 ]
