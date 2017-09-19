@@ -30,6 +30,8 @@ public class DriveTrain extends LinearOpMode{
         rightFront = hardwareMap.dcMotor.get("RF");
         leftBack = hardwareMap.dcMotor.get("LB");
         rightBack = hardwareMap.dcMotor.get("RB");
+        clawLeft = hardwareMap.dcMotor.get("CL");
+        clawRight = hardwareMap.dcMotor.get("CR");
 
     }
 }
