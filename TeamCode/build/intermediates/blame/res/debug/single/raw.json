@@ -16,24 +16,12 @@
         "source": "/Users/William/.android/build-cache/adb687e6d57bd82c506b313f4ef75cea87364b9e/output/res/raw/simple_vertex_shader.glsl"
     },
     {
-        "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/color_fragment_shader.glsl",
-        "source": "/Users/William/.android/build-cache/52e5438ba5c9642649c586275f49f2c8a7acf783/output/res/raw/color_fragment_shader.glsl"
-    },
-    {
-        "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/cube_mesh_vertex_shader.glsl",
-        "source": "/Users/William/.android/build-cache/52e5438ba5c9642649c586275f49f2c8a7acf783/output/res/raw/cube_mesh_vertex_shader.glsl"
-    },
-    {
         "merged": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/res/merged/debug/raw/nxtstartupsound.wav",
         "source": "/Users/William/.android/build-cache/208dce0583c71c2a8916f65a530b06e62a093e3a/output/res/raw/nxtstartupsound.wav"
     },
     {
         "merged": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/res/merged/debug/raw/cube_mesh_fragment_shader.glsl",
         "source": "/Users/William/.android/build-cache/adb687e6d57bd82c506b313f4ef75cea87364b9e/output/res/raw/cube_mesh_fragment_shader.glsl"
-    },
-    {
-        "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/errormessage.wav",
-        "source": "/Users/William/.android/build-cache/8a856564b19c01984e4f89a5329b11377d65d6d9/output/res/raw/errormessage.wav"
     },
     {
         "merged": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/res/merged/debug/raw/texture_fragment_shader.glsl",
@@ -48,43 +36,11 @@
         "source": "/Users/William/.android/build-cache/adb687e6d57bd82c506b313f4ef75cea87364b9e/output/res/raw/cube_mesh_vertex_shader.glsl"
     },
     {
-        "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/texture_fragment_shader.glsl",
-        "source": "/Users/William/.android/build-cache/52e5438ba5c9642649c586275f49f2c8a7acf783/output/res/raw/texture_fragment_shader.glsl"
-    },
-    {
-        "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/cube_mesh_fragment_shader.glsl",
-        "source": "/Users/William/.android/build-cache/52e5438ba5c9642649c586275f49f2c8a7acf783/output/res/raw/cube_mesh_fragment_shader.glsl"
-    },
-    {
-        "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/nxtstartupsound.wav",
-        "source": "/Users/William/.android/build-cache/8a856564b19c01984e4f89a5329b11377d65d6d9/output/res/raw/nxtstartupsound.wav"
-    },
-    {
-        "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/warningmessage.wav",
-        "source": "/Users/William/.android/build-cache/8a856564b19c01984e4f89a5329b11377d65d6d9/output/res/raw/warningmessage.wav"
-    },
-    {
-        "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/simple_vertex_shader.glsl",
-        "source": "/Users/William/.android/build-cache/52e5438ba5c9642649c586275f49f2c8a7acf783/output/res/raw/simple_vertex_shader.glsl"
-    },
-    {
-        "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/chimedisconnect.wav",
-        "source": "/Users/William/.android/build-cache/8a856564b19c01984e4f89a5329b11377d65d6d9/output/res/raw/chimedisconnect.wav"
-    },
-    {
         "merged": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/res/merged/debug/raw/chimeconnect.wav",
         "source": "/Users/William/.android/build-cache/208dce0583c71c2a8916f65a530b06e62a093e3a/output/res/raw/chimeconnect.wav"
     },
     {
         "merged": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/res/merged/debug/raw/errormessage.wav",
         "source": "/Users/William/.android/build-cache/208dce0583c71c2a8916f65a530b06e62a093e3a/output/res/raw/errormessage.wav"
-    },
-    {
-        "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/texture_vertex_shader.glsl",
-        "source": "/Users/William/.android/build-cache/52e5438ba5c9642649c586275f49f2c8a7acf783/output/res/raw/texture_vertex_shader.glsl"
-    },
-    {
-        "merged": "/Users/William/AndroidStudioProjects/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/chimeconnect.wav",
-        "source": "/Users/William/.android/build-cache/8a856564b19c01984e4f89a5329b11377d65d6d9/output/res/raw/chimeconnect.wav"
     }
 ]
