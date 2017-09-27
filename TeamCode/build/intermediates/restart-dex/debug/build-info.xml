@@ -2,13 +2,13 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="23"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1506541558942"
+    timestamp="1506542068092"
     token="2033325857576028318"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -23,17 +23,17 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/outputs/apk/TeamCode-debug.apk"
+        type="SPLIT_MAIN" />
+
     <build
         build-mode="FULL"
-        timestamp="1506541371418"
+        timestamp="1506542068092"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/outputs/apk/TeamCode-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1506541558942"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
