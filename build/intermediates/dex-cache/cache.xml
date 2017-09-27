@@ -2,6 +2,15 @@
 <items version="2" >
 
     <item
+        is-multidex="true"
+        jar="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c3310996f72b1634ca194e38a27ca675e56d0579/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/William/.android/build-cache/6b0a0063a593d946940640136e0ddfc8e1cc08f6/output/jars/classes.jar"
         jumboMode="false"
@@ -39,33 +48,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/William/.android/build-cache/35fb7875aca3ee7f1b0dbf8689e3721ddca3efb0/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
-        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/classes_21680c6d093f3ced0fc058b49725739ed4351019.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/William/.android/build-cache/adb687e6d57bd82c506b313f4ef75cea87364b9e/output/jars/libs/javac.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="c576121aac49e547b39aedfb1daa29782db4166c">
-        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/javac_3189a3dfcda5f1abb02362c5cc9cf57dec4762a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/William/.android/build-cache/adb687e6d57bd82c506b313f4ef75cea87364b9e/output/jars/libs/support-annotations-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="5a214d3b1b12e72f4fb0d5d5d8d0ec43c96de2b5">
-        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_c90928a5a3ce9cf3701fb66cdfde97db4e8fd688.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/William/.android/build-cache/1f7dc992ae4991449aeed27f2af81e3e828a6569/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -93,12 +75,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/William/.android/build-cache/35fb7875aca3ee7f1b0dbf8689e3721ddca3efb0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/classes_21680c6d093f3ced0fc058b49725739ed4351019.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/William/AndroidStudioProjects/code17-18/FtcRobotController/build/intermediates/bundles/default/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="9d1da625c832944f7f40bc31168d5342529fcbf4">
         <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/classes_0d23f88dafd5e0518ceab098119c4baba0ae9874.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="69cc8cb62952cc66670e8f22c3c90d3978676d75">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f52c4970c0de5fc9ab98a04a6cf1d2232a8e27b7/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -108,6 +108,24 @@
         revision="25.0.3"
         sha1="75bdc736b17d8f39d246beac357cb3a0e007fcfa">
         <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/classes_8e36dbdc7f2062d1c8fe1afc99e648a5451b38b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/William/.android/build-cache/adb687e6d57bd82c506b313f4ef75cea87364b9e/output/jars/libs/javac.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c576121aac49e547b39aedfb1daa29782db4166c">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/javac_3189a3dfcda5f1abb02362c5cc9cf57dec4762a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/William/.android/build-cache/adb687e6d57bd82c506b313f4ef75cea87364b9e/output/jars/libs/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5a214d3b1b12e72f4fb0d5d5d8d0ec43c96de2b5">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_c90928a5a3ce9cf3701fb66cdfde97db4e8fd688.jar" />
     </item>
     <item
         is-multidex="false"
