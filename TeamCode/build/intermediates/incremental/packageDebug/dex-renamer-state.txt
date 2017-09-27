@@ -1,7 +1,4 @@
-#Tue Sep 19 17:12:56 PDT 2017
-base.0=/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c3310996f72b1634ca194e38a27ca675e56d0579
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f52c4970c0de5fc9ab98a04a6cf1d2232a8e27b7/classes.dex
-base.1=/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f52c4970c0de5fc9ab98a04a6cf1d2232a8e27b7
-file.0=/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c3310996f72b1634ca194e38a27ca675e56d0579/classes.dex
+#Tue Sep 26 20:19:21 PDT 2017
+base.0=/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
