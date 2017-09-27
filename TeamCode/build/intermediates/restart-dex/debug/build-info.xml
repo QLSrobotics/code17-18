@@ -6,7 +6,7 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1506542068092"
+    timestamp="1506542300670"
     token="2033325857576028318"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -29,7 +29,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1506542068092"
+        timestamp="1506542300670"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/outputs/apk/TeamCode-debug.apk"
