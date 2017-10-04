@@ -1,4 +1,4 @@
-#Wed Sep 27 12:43:13 PDT 2017
+#Tue Oct 03 23:51:34 PDT 2017
 base.0=/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c3310996f72b1634ca194e38a27ca675e56d0579
 renamed.1=classes.dex
 renamed.0=classes2.dex

@@ -167,6 +167,7 @@ MERGED from [:Analytics-release:] /Users/William/.android/build-cache/6b0a0063a5
 		ADDED from [:Blocks-release:] /Users/William/.android/build-cache/2ebad59159bba5c07e59daab581b8b740b574a6e/output/AndroidManifest.xml:12:9-65
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from [:Blocks-release:] /Users/William/.android/build-cache/2ebad59159bba5c07e59daab581b8b740b574a6e/output/AndroidManifest.xml:14:5-16:35
+IMPLIED from /Users/William/AndroidStudioProjects/code17-18/TeamCode/src/main/AndroidManifest.xml:8:1-12:12 reason: com.google.blocks requested WRITE_EXTERNAL_STORAGE
 MERGED from [:RobotCore-release:] /Users/William/.android/build-cache/adb687e6d57bd82c506b313f4ef75cea87364b9e/output/AndroidManifest.xml:30:5-32:35
 MERGED from [:FtcCommon-release:] /Users/William/.android/build-cache/208dce0583c71c2a8916f65a530b06e62a093e3a/output/AndroidManifest.xml:15:5-17:35
 	android:required
