@@ -6,31 +6,37 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1506542300670"
+    timestamp="1507079132298"
     token="2033325857576028318"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="993" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="87" />
     <task
         name="verifier"
-        duration="0" />
+        duration="67" />
 
+    <artifact
+        location="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
     <artifact
         location="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/outputs/apk/TeamCode-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1506542300670"
+        timestamp="1507079132298"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/outputs/apk/TeamCode-debug.apk"
             type="SPLIT_MAIN" />

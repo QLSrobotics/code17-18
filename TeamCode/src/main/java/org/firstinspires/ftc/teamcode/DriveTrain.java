@@ -8,7 +8,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 /**
  * Created by William on 9/19/17.
  */
-@TeleOp(name="DriveTrain", group="Linear Opmode")
+@TeleOp(name="DriveTrain", group="Team 11920")
 @Disabled
 public class DriveTrain extends LinearOpMode{
     //motor initialized here

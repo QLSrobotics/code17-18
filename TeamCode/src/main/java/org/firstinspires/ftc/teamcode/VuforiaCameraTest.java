@@ -17,7 +17,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.VuforiaTrackableDefau
 import org.firstinspires.ftc.robotcore.external.navigation.VuforiaTrackables;
 
 
-@Autonomous(name="VuforiaCameraTest", group ="Linear Opmode")
+@Autonomous(name="VuforiaCameraTest", group ="Team 11920")
 //@Disabled
 public class VuforiaCameraTest extends LinearOpMode {
 
