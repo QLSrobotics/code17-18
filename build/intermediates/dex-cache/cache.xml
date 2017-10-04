@@ -2,121 +2,130 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/William/.android/build-cache/6b0a0063a593d946940640136e0ddfc8e1cc08f6/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="9dafed45e330aec14abcce05bdb7bbdb2a2d7092">
-        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/classes_8c0c55d91df28f93b736c44258c9c2d986f0e132.jar" />
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c3310996f72b1634ca194e38a27ca675e56d0579/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/William/.android/build-cache/adb687e6d57bd82c506b313f4ef75cea87364b9e/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="e259d01a014f392930432e85cc1ac9bf807a92df">
-        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/classes_ed9227afcfa0b963052f0fe0820c8963ef43090f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/William/.android/build-cache/208dce0583c71c2a8916f65a530b06e62a093e3a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="c2abba0621a5319232804767218216568263aa37">
-        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/classes_1c9c4396b194bacd646ca36c45c598a0775811e1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/William/.android/build-cache/adb687e6d57bd82c506b313f4ef75cea87364b9e/output/jars/libs/gson-extras-0.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="b30c2655badcc7ce97f84e49f777b7dd154bad57">
-        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/gson-extras-0.2.1_a94f7775b5a17c84f994634228fb3a114047e62d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/William/.android/build-cache/35fb7875aca3ee7f1b0dbf8689e3721ddca3efb0/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
-        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/classes_21680c6d093f3ced0fc058b49725739ed4351019.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/William/.android/build-cache/adb687e6d57bd82c506b313f4ef75cea87364b9e/output/jars/libs/javac.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="c576121aac49e547b39aedfb1daa29782db4166c">
-        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/javac_3189a3dfcda5f1abb02362c5cc9cf57dec4762a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/William/.android/build-cache/adb687e6d57bd82c506b313f4ef75cea87364b9e/output/jars/libs/support-annotations-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="5a214d3b1b12e72f4fb0d5d5d8d0ec43c96de2b5">
-        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_c90928a5a3ce9cf3701fb66cdfde97db4e8fd688.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/William/.android/build-cache/1f7dc992ae4991449aeed27f2af81e3e828a6569/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="96cbbea552fe9bf3c56540c7e4912eb5cf72301e">
-        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/classes_d09704f15a66bae64ef43f0cee347e9adb8f769f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/William/.android/build-cache/adb687e6d57bd82c506b313f4ef75cea87364b9e/output/jars/libs/Vuforia.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="91b46366eb9f8203073ee2935087c097c888c0ed">
-        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/Vuforia_f2da8743642d82e6f29686956da72a65250ede6e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/William/.android/build-cache/adb687e6d57bd82c506b313f4ef75cea87364b9e/output/jars/libs/gson-2.8.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="e118dd0900e4a18fb928ebb8df2d9fbda78f2b5d">
-        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/gson-2.8.0_80f70ef9fa7a5049c0cfa587d784da9b63d17afa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/William/AndroidStudioProjects/code17-18/FtcRobotController/build/intermediates/bundles/default/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="9d1da625c832944f7f40bc31168d5342529fcbf4">
-        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/classes_0d23f88dafd5e0518ceab098119c4baba0ae9874.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/William/.android/build-cache/2ebad59159bba5c07e59daab581b8b740b574a6e/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/William/.android/build-cache/22e8c1ed59abf1ec63adeb6de8ac66f1512d6aac/output/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="75bdc736b17d8f39d246beac357cb3a0e007fcfa">
-        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/classes_8e36dbdc7f2062d1c8fe1afc99e648a5451b38b5.jar" />
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2b69562b003752616adb4e4f1e26b12a48d38398/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/William/.android/build-cache/ea45da40c81be867791ed9cc0292cbfa5fda7fa3/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/William/.android/build-cache/68955d31d07f226b3352bb79651bcef865b1db63/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c2abba0621a5319232804767218216568263aa37">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c270c6e65c59b3f3c64f53ee6fb68183dd09016f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/William/.android/build-cache/fe736a531033be1b6782ba82a6a55015ad909a47/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e259d01a014f392930432e85cc1ac9bf807a92df">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/classes_19405fdd0613e47c329798e83e7319ff2127a87e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/William/.android/build-cache/fe736a531033be1b6782ba82a6a55015ad909a47/output/jars/libs/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5a214d3b1b12e72f4fb0d5d5d8d0ec43c96de2b5">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_6dc616746eed36bce98ec854879daf100117f40f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="68065df624471257e63e0146f0f237c44adb5751">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f52c4970c0de5fc9ab98a04a6cf1d2232a8e27b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/William/.android/build-cache/ca6efdb3caabb0ca14d18dd3a79a4885abf6314f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9dafed45e330aec14abcce05bdb7bbdb2a2d7092">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cdf0578b1a4d5922d9f16da5bebc71587df1408c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/William/.android/build-cache/fe736a531033be1b6782ba82a6a55015ad909a47/output/jars/libs/gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e118dd0900e4a18fb928ebb8df2d9fbda78f2b5d">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_8b581657d2515df498c0e8c08e86d84dd78ddac0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/William/.android/build-cache/88dcb0f1f8a829eecba651be9f0f747f91c87a00/output/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="9da82f9829b6cafb8407989729481220ca06c905">
-        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/pre-dexed/debug/classes_e4192c5514eb497c1bdf20ef19c836d7364b92f8.jar" />
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7934f0b4ed609c8f083c717a068edad19a4f5af6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/William/.android/build-cache/fe736a531033be1b6782ba82a6a55015ad909a47/output/jars/libs/javac.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c576121aac49e547b39aedfb1daa29782db4166c">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/javac_201207108bcad370ab6c73fd08638bbcdbd77302/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/William/.android/build-cache/d7c7061b6afecc069db14af10ed152e43cd67679/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="96cbbea552fe9bf3c56540c7e4912eb5cf72301e">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/classes_57c68243eb716efaaebbae363b1cc1b19195def3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/William/.android/build-cache/b8cdd42e00a1ccd2e892d0ea04a92c608af9fe24/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/classes_91efb95eef562d98f306863743ec595012e6f154/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/William/.android/build-cache/fe736a531033be1b6782ba82a6a55015ad909a47/output/jars/libs/gson-extras-0.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b30c2655badcc7ce97f84e49f777b7dd154bad57">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/gson-extras-0.2.1_e573a4317b0a59efad6e3d479176faa3c6e11110/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/William/.android/build-cache/fe736a531033be1b6782ba82a6a55015ad909a47/output/jars/libs/Vuforia.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="91b46366eb9f8203073ee2935087c097c888c0ed">
+        <dex dex="/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/Vuforia_0a5bcf7ae914ab6e6c7ee96695ae0d0524a5495c/classes.dex" />
     </item>
 
 </items>
