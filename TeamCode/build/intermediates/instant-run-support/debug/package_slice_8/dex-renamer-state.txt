@@ -1,4 +1,0 @@
-#Wed Oct 04 00:09:37 PDT 2017
-base.0=/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8
-renamed.0=classes.dex
-file.0=/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex
