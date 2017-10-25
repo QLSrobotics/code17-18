@@ -110,7 +110,6 @@ public class Cypher_RampStart extends LinearOpMode {
             }
 
 
-
             telemetry.update();
         }
     }
