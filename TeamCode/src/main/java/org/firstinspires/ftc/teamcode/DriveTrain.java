@@ -10,7 +10,7 @@ import com.qualcomm.robotcore.util.ElapsedTime;
  * Created by William on 9/19/17.
  */
 @TeleOp(name="DriveTrain", group="Team11920")
-@Disabled
+//@Disabled
 public class DriveTrain extends LinearOpMode{
     //motor initialized here
     //comment out the motors' declaration not physically connected to the robot

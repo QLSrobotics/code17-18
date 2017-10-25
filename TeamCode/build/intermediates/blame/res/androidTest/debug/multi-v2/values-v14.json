@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "/Users/JacKie825/Documents/GitHub/code17-18/TeamCode/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v14/values-v14.xml",
             "map": [
                 {
-                    "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/fd321f7829e2c7c9b74339ff9eac4d7b/res/values-v14/values-v14.xml",
+                    "source": "/Users/JacKie825/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/6942039069c56da37782b8d0e4aa81d8/res/values-v14/values-v14.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
