@@ -27,7 +27,7 @@ public class VuforiaCameraTest extends LinearOpMode {
 
     VuforiaLocalizer vuforia;
 
-    @Override public void runOpMode() {
+    @Override public void runOpMode() throws InterruptedException{
 
         /*
          * To start up Vuforia, tell it the view that we wish to use for camera monitor (on the RC phone);
