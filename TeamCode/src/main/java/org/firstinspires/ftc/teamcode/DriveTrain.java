@@ -49,24 +49,24 @@ public class DriveTrain extends LinearOpMode{
 
             //controlling lift
             if (gamepad1.dpad_up) {
-                clawFront.setPower(0.3);
-                sleep(500);
+                clawFront.setPower(-0.5);
+                sleep(100);
                 clawFront.setPower(0);
 
             }
             if (gamepad1.dpad_down) {
-                clawFront.setPower(-0.3);
-                sleep(500);
+                clawFront.setPower(0.5);
+                sleep(100);
                 clawFront.setPower(0);
             }
             while (gamepad1.dpad_left) {
-                clawBack.setPower(0.3);
-                sleep(500);
+                clawBack.setPower(-0.5);
+                sleep(100);
                 clawBack.setPower(0);
             }
             while (gamepad1.dpad_right) {
-                clawBack.setPower(-0.3);
-                sleep(500);
+                clawBack.setPower(0.5);
+                sleep(100);
                 clawBack.setPower(0);
             }
 
