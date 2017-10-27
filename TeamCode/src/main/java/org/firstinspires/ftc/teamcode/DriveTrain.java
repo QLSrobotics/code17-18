@@ -19,7 +19,8 @@ public class DriveTrain extends LinearOpMode{
     private DcMotor rightFront;
     private DcMotor leftBack;
     private DcMotor rightBack;
-    private DcMotor claw;
+    private DcMotor clawFront;
+    private DcMotor clawBack;
 
     @Override
     public void runOpMode() throws InterruptedException {
@@ -31,7 +32,8 @@ public class DriveTrain extends LinearOpMode{
         rightFront = hardwareMap.dcMotor.get("RF");
         leftBack = hardwareMap.dcMotor.get("LB");
         rightBack = hardwareMap.dcMotor.get("RB");
-        claw = hardwareMap.dcMotor.get("CLAW");
+        clawFront = hardwareMap.dcMotor.get("CF");
+        clawBack = hardwareMap.dcMotor.get("CB");
 
         waitForStart();
         runtime.reset();
@@ -39,18 +41,36 @@ public class DriveTrain extends LinearOpMode{
         while(opModeIsActive()) {
 
             //joystick driving
-            leftFront.setPower(gamepad1.left_stick_y + gamepad1.left_stick_x + gamepad1.right_stick_x);
-            leftBack.setPower(gamepad1.left_stick_y - gamepad1.left_stick_x + gamepad1.right_stick_x);
-            rightFront.setPower(-gamepad1.left_stick_y - gamepad1.left_stick_x + gamepad1.right_stick_x);
-            rightBack.setPower(-gamepad1.left_stick_y + gamepad1.left_stick_x + gamepad1.right_stick_x);
+            leftFront.setPower(gamepad1.left_stick_y);
+            leftBack.setPower(gamepad1.left_stick_y);
+            rightFront.setPower(-gamepad1.right_stick_y);
+            rightBack.setPower(-gamepad1.right_stick_y);
+
 
             //controlling lift
             if (gamepad1.dpad_up) {
-                claw.setPower(0.4);
+                clawFront.setPower(0.3);
+                sleep(500);
+                clawFront.setPower(0);
+
             }
             if (gamepad1.dpad_down) {
-                claw.setPower(-0.4);
+                clawFront.setPower(-0.3);
+                sleep(500);
+                clawFront.setPower(0);
             }
+            while (gamepad1.dpad_left) {
+                clawBack.setPower(0.3);
+                sleep(500);
+                clawBack.setPower(0);
+            }
+            while (gamepad1.dpad_right) {
+                clawBack.setPower(-0.3);
+                sleep(500);
+                clawBack.setPower(0);
+            }
+
+
 
             //updating robot status and display on driver station
             telemetry.addData("Status", "Run Time: " + runtime.toString());
@@ -59,5 +79,11 @@ public class DriveTrain extends LinearOpMode{
 
         }
 
+    }
+    public void sleep(int i){
+        long initial_time = System.currentTimeMillis();
+        while(System.currentTimeMillis()-initial_time <i){
+
+        }
     }
 }
