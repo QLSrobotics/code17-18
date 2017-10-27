@@ -1,8 +1,8 @@
 package org.firstinspires.ftc.teamcode;
 
-import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
-import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
+
 import org.firstinspires.ftc.robotcore.external.ClassFactory;
 import org.firstinspires.ftc.robotcore.external.matrices.OpenGLMatrix;
 import org.firstinspires.ftc.robotcore.external.matrices.VectorF;
@@ -17,7 +17,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.VuforiaTrackableDefau
 import org.firstinspires.ftc.robotcore.external.navigation.VuforiaTrackables;
 
 
-@Autonomous(name="VuforiaCameraTest", group ="Team11920")
+@TeleOp(name="VuforiaCameraTest", group ="Team11920")
 //@Disabled
 public class VuforiaCameraTest extends LinearOpMode {
 
