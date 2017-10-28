@@ -39,8 +39,8 @@ public class DriveTrain extends LinearOpMode{
         clawFront = hardwareMap.dcMotor.get("CF");
         clawBack = hardwareMap.dcMotor.get("CB");
         clawFrontServo = hardwareMap.servo.get("CFS");
-//        clawBackServoPos = hardwareMap.servo.get("CBSP");
-//        clawBackServoClaw = hardwareMap.servo.get("CBSC");
+        clawBackServoPos = hardwareMap.servo.get("CBSP");
+        clawBackServoClaw = hardwareMap.servo.get("CBSC");
 
         waitForStart();
         runtime.reset();
@@ -54,6 +54,7 @@ public class DriveTrain extends LinearOpMode{
             rightBack.setPower(-gamepad1.right_stick_y);
 
 
+            //controlling lift
             //controlling lift
             if (gamepad1.dpad_up) {
                 clawFront.setPower(-0.4);
@@ -78,6 +79,21 @@ public class DriveTrain extends LinearOpMode{
             }
             while (gamepad1.a) {
                 clawFrontServo.setPosition(30);
+            }
+            while (gamepad1.b) {
+                clawFrontServo.setPosition(-30);
+            }
+            while (gamepad1.x) {
+                clawBackServoClaw.setPosition(30);
+            }
+            while (gamepad1.y) {
+                clawBackServoClaw.setPosition(-30);
+            }
+            while (gamepad1.left_bumper) {
+                clawBackServoPos.setPosition(30);
+            }
+            while (gamepad1.right_bumper) {
+                clawBackServoPos.setPosition(-30);
             }
 
 
