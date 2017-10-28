@@ -1,4 +1,4 @@
-#Fri Oct 27 17:16:48 PDT 2017
-base.0=/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dexMerger/debug/18
+#Sat Oct 28 11:23:47 PDT 2017
+base.0=/Users/William/Developer/AndroidApplication/code17-18/TeamCode/build/intermediates/transforms/dexMerger/debug/18
 renamed.0=classes.dex
-file.0=/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/transforms/dexMerger/debug/18/classes.dex
+file.0=/Users/William/Developer/AndroidApplication/code17-18/TeamCode/build/intermediates/transforms/dexMerger/debug/18/classes.dex

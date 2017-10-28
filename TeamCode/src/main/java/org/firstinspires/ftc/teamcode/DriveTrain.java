@@ -25,6 +25,7 @@ public class DriveTrain extends LinearOpMode{
     private Servo clawFrontServo;
     private Servo clawBackServoPos;
     private Servo clawBackServoClaw;
+    private Servo clawColour;
 
     @Override
     public void runOpMode() throws InterruptedException {
@@ -39,8 +40,9 @@ public class DriveTrain extends LinearOpMode{
         clawFront = hardwareMap.dcMotor.get("CF");
         clawBack = hardwareMap.dcMotor.get("CB");
         clawFrontServo = hardwareMap.servo.get("CFS");
-//        clawBackServoPos = hardwareMap.servo.get("CBSP");
-//        clawBackServoClaw = hardwareMap.servo.get("CBSC");
+        clawBackServoPos = hardwareMap.servo.get("CBSP");
+        clawBackServoClaw = hardwareMap.servo.get("CBSC");
+        clawColour = hardwareMap.servo.get("CC");
 
         waitForStart();
         runtime.reset();
@@ -79,6 +81,22 @@ public class DriveTrain extends LinearOpMode{
             while (gamepad1.a) {
                 clawFrontServo.setPosition(30);
             }
+            while (gamepad1.b) {
+                clawFrontServo.setPosition(-30);
+            }
+            while (gamepad1.x) {
+                clawBackServoClaw.setPosition(30);
+            }
+            while (gamepad1.y) {
+                clawBackServoClaw.setPosition(-30);
+            }
+            while (gamepad1.left_bumper) {
+                clawBackServoPos.setPosition(30);
+            }
+            while (gamepad1.right_bumper) {
+                clawBackServoPos.setPosition(-30);
+            }
+
 
 
             //updating robot status and display on driver station
