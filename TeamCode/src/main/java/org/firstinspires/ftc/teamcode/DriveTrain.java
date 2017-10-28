@@ -4,6 +4,7 @@ import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
 /**
@@ -19,7 +20,11 @@ public class DriveTrain extends LinearOpMode{
     private DcMotor rightFront;
     private DcMotor leftBack;
     private DcMotor rightBack;
-    private DcMotor claw;
+    private DcMotor clawFront;
+    private DcMotor clawBack;
+    private Servo clawFrontServo;
+    private Servo clawBackServoPos;
+    private Servo clawBackServoClaw;
 
     @Override
     public void runOpMode() throws InterruptedException {
@@ -31,7 +36,11 @@ public class DriveTrain extends LinearOpMode{
         rightFront = hardwareMap.dcMotor.get("RF");
         leftBack = hardwareMap.dcMotor.get("LB");
         rightBack = hardwareMap.dcMotor.get("RB");
-        claw = hardwareMap.dcMotor.get("CLAW");
+        clawFront = hardwareMap.dcMotor.get("CF");
+        clawBack = hardwareMap.dcMotor.get("CB");
+        clawFrontServo = hardwareMap.servo.get("CFS");
+//        clawBackServoPos = hardwareMap.servo.get("CBSP");
+//        clawBackServoClaw = hardwareMap.servo.get("CBSC");
 
         waitForStart();
         runtime.reset();
@@ -39,25 +48,52 @@ public class DriveTrain extends LinearOpMode{
         while(opModeIsActive()) {
 
             //joystick driving
-            leftFront.setPower(gamepad1.left_stick_y + gamepad1.left_stick_x + gamepad1.right_stick_x);
-            leftBack.setPower(gamepad1.left_stick_y - gamepad1.left_stick_x + gamepad1.right_stick_x);
-            rightFront.setPower(-gamepad1.left_stick_y - gamepad1.left_stick_x + gamepad1.right_stick_x);
-            rightBack.setPower(-gamepad1.left_stick_y + gamepad1.left_stick_x + gamepad1.right_stick_x);
+            leftFront.setPower(gamepad1.left_stick_y);
+            leftBack.setPower(gamepad1.left_stick_y);
+            rightFront.setPower(-gamepad1.right_stick_y);
+            rightBack.setPower(-gamepad1.right_stick_y);
+
 
             //controlling lift
             if (gamepad1.dpad_up) {
-                claw.setPower(0.4);
+                clawFront.setPower(-0.4);
+                sleep(450);
+                clawFront.setPower(0);
+
             }
             if (gamepad1.dpad_down) {
-                claw.setPower(-0.4);
+                clawFront.setPower(0.4);
+                sleep(450);
+                clawFront.setPower(0);
             }
+            if (gamepad1.dpad_left) {
+                clawBack.setPower(-0.4);
+                sleep(450);
+                clawBack.setPower(0);
+            }
+            if (gamepad1.dpad_right) {
+                clawBack.setPower(0.4);
+                sleep(450);
+                clawBack.setPower(0);
+            }
+            while (gamepad1.a) {
+                clawFrontServo.setPosition(30);
+            }
+
 
             //updating robot status and display on driver station
             telemetry.addData("Status", "Run Time: " + runtime.toString());
             //refresh
             telemetry.update();
 
+
         }
 
+    }
+    public void sleep(int i){
+        long initial_time = System.currentTimeMillis();
+        while(System.currentTimeMillis()-initial_time <i){
+
+        }
     }
 }
