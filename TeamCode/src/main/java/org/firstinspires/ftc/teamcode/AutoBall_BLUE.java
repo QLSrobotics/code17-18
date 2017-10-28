@@ -104,8 +104,19 @@ public class AutoBall_BLUE extends LinearOpMode {
     leftBack.setPower(0);
 
   }
-  public void turn(double speed, double time) {
 
+  //positive speed for left turn
+  //negative speed for right turn
+  public void turn(double speed, int time) {
+    rightFront.setPower(speed);
+    rightBack.setPower(speed);
+    leftFront.setPower(-speed);
+    leftBack.setPower(-speed);
+    sleep(time);
+    rightFront.setPower(0);
+    rightBack.setPower(0);
+    leftFront.setPower(0);
+    leftBack.setPower(0);
   }
   public void sleep(int i){
     long initial_time = System.currentTimeMillis();
