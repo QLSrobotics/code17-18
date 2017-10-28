@@ -15,6 +15,22 @@
                     }
                 }
             ]
+        },
+        {
+            "outputFile": "/Users/William/Developer/AndroidApplication/code17-18/TeamCode/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/8195b18020a11946e01137df15fd0db4/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
         }
     ]
 }
