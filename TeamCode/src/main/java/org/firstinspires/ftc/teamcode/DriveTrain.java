@@ -54,10 +54,7 @@ public class DriveTrain extends LinearOpMode{
             leftBack.setPower(gamepad1.left_stick_y*1.2);
             rightFront.setPower(-gamepad1.right_stick_y*1.2);
             rightBack.setPower(-gamepad1.right_stick_y*1.2);
-
-
-
-            //controlling lift
+            
             //controlling lift
             if (gamepad1.dpad_up) {
                 clawFront.setPower(-0.4);
@@ -99,17 +96,13 @@ public class DriveTrain extends LinearOpMode{
                 clawBackServoPos.setPosition(-30);
             }
 
-
             //updating robot status and display on driver station
             telemetry.addData("Status", "Run Time: " + runtime.toString());
             //refresh
             telemetry.update();
-
-
         }
 
     }
-
 
     public void sleep(int i){
         long initial_time = System.currentTimeMillis();
