@@ -38,103 +38,91 @@ import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.ColorSensor;
+import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.Servo;
+import com.qualcomm.robotcore.util.ElapsedTime;
 
-/*
- *
- * This is an example LinearOpMode that shows how to use
- * a Modern Robotics Color Sensor.
- *
- * The op mode assumes that the color sensor
- * is configured with a name of "sensor_color".
- *
- * You can use the X button on gamepad1 to toggle the LED on and off.
- *
- * Use Android Studio to Copy this Class, and Paste it into your team's code folder with a new name.
- * Remove or comment out the @Disabled line to add this opmode to the Driver Station OpMode list
- */
 @Autonomous(name = "AutoBall_BLUE", group = "Team11920")
 //@Disabled
 public class AutoBall_BLUE extends LinearOpMode {
 
   ColorSensor colorSensor;    // Hardware Device Object
-
+  private ElapsedTime runtime = new ElapsedTime();
+  private DcMotor leftFront;
+  private DcMotor rightFront;
+  private DcMotor leftBack;
+  private DcMotor rightBack;
+  private DcMotor clawFront;
+  private DcMotor clawBack;
+  private Servo clawFrontServo;
+  private Servo clawBackServoPos;
+  private Servo clawBackServoClaw;
 
   @Override
   public void runOpMode() {
 
-    // hsvValues is an array that will hold the hue, saturation, and value information.
+    //mapping the motor in this program to the motor in robot configuration
+    leftFront = hardwareMap.dcMotor.get("LF");
+    rightFront = hardwareMap.dcMotor.get("RF");
+    leftBack = hardwareMap.dcMotor.get("LB");
+    rightBack = hardwareMap.dcMotor.get("RB");
+    clawFront = hardwareMap.dcMotor.get("CF");
+    clawBack = hardwareMap.dcMotor.get("CB");
+    clawFrontServo = hardwareMap.servo.get("CFS");
+    clawBackServoPos = hardwareMap.servo.get("CBSP");
+    clawBackServoClaw = hardwareMap.servo.get("CBSC");
+
     float hsvValues[] = {0F,0F,0F};
-
-    // values is a reference to the hsvValues array.
     final float values[] = hsvValues;
-
-    // get a reference to the RelativeLayout so we can change the background
-    // color of the Robot Controller app to match the hue detected by the RGB sensor.
-    int relativeLayoutId = hardwareMap.appContext.getResources().getIdentifier("RelativeLayout", "id", hardwareMap.appContext.getPackageName());
-    final View relativeLayout = ((Activity) hardwareMap.appContext).findViewById(relativeLayoutId);
-
-    // bPrevState and bCurrState represent the previous and current state of the button.
-    boolean bPrevState = false;
-    boolean bCurrState = false;
-
-    // bLedOn represents the state of the LED.
-    boolean bLedOn = true;
-
-    // get a reference to our ColorSensor object.
     colorSensor = hardwareMap.get(ColorSensor.class, "sensor_color");
-
-    // Set the LED in the beginning
-    colorSensor.enableLed(bLedOn);
-
-    // wait for the start button to be pressed.
     waitForStart();
 
-    // while the op mode is active, loop and read the RGB data.
-    // Note we use opModeIsActive() as our loop condition because it is an interruptible method.
     while (opModeIsActive()) {
-
-      // check the status of the x button on either gamepad.
-      bCurrState = gamepad1.x;
-
-      // check for button state transitions.
-      if (bCurrState && (bCurrState != bPrevState))  {
-
-        // button is transitioning to a pressed state. So Toggle LED
-        bLedOn = !bLedOn;
-        colorSensor.enableLed(bLedOn);
-      }
-
-      // update previous state variable.
-      bPrevState = bCurrState;
 
       // convert the RGB values to HSV values.
       Color.RGBToHSV(colorSensor.red() * 8, colorSensor.green() * 8, colorSensor.blue() * 8, hsvValues);
 
-      // send the info back to driver station using telemetry function.
-      telemetry.addData("LED", bLedOn ? "On" : "Off");
-      telemetry.addData("Clear", colorSensor.alpha());
-      telemetry.addData("Red  ", colorSensor.red());
-      telemetry.addData("Green", colorSensor.green());
-      telemetry.addData("Blue ", colorSensor.blue());
-      telemetry.addData("Hue", hsvValues[0]);
-
-      // change the background color to match the color detected by the RGB sensor.
-      // pass a reference to the hue, saturation, and value array as an argument
-      // to the HSVToColor method.
-      relativeLayout.post(new Runnable() {
-        public void run() {
-          relativeLayout.setBackgroundColor(Color.HSVToColor(0xff, values));
-        }
-      });
+      if (    //blue detected
+              (colorSensor.getI2cAddress()).equals(0x07)) {
+        driveStraight(-1, 500);
+      }
+      else {
+        driveStraight(1, 500);
+      }
 
       telemetry.update();
     }
 
-    // Set the panel back to the default color
-    relativeLayout.post(new Runnable() {
-      public void run() {
-        relativeLayout.setBackgroundColor(Color.WHITE);
-      }
-    });
+  }
+  public void driveStraight(double speed, int time) {
+    rightFront.setPower(speed);
+    rightBack.setPower(speed);
+    leftFront.setPower(speed);
+    leftBack.setPower(speed);
+    sleep(time);
+    rightFront.setPower(0);
+    rightBack.setPower(0);
+    leftFront.setPower(0);
+    leftBack.setPower(0);
+
+  }
+
+  //positive speed for left turn
+  //negative speed for right turn
+  public void turn(double speed, int time) {
+    rightFront.setPower(speed);
+    rightBack.setPower(speed);
+    leftFront.setPower(-speed);
+    leftBack.setPower(-speed);
+    sleep(time);
+    rightFront.setPower(0);
+    rightBack.setPower(0);
+    leftFront.setPower(0);
+    leftBack.setPower(0);
+  }
+  public void sleep(int i){
+    long initial_time = System.currentTimeMillis();
+    while(System.currentTimeMillis()-initial_time <i) {
+    }
   }
 }

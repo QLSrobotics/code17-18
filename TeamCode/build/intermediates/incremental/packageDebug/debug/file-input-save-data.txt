@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Oct 28 14:15:50 PDT 2017
+#Sat Oct 28 15:05:18 PDT 2017
 20.base=/Users/William/Developer/AndroidApplication/code17-18/TeamCode/build/intermediates/assets/debug
 143.base=/Users/William/Developer/AndroidApplication/code17-18/TeamCode/build/intermediates/assets/debug
 439.set=ASSET

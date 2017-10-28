@@ -29,14 +29,9 @@
 
 package org.firstinspires.ftc.teamcode;
 
-import android.app.Activity;
-import android.graphics.Color;
-import android.view.View;
-
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.ColorSensor;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Servo;
@@ -52,12 +47,7 @@ public class AutoBall_RED extends LinearOpMode {
   private DcMotor rightFront;
   private DcMotor leftBack;
   private DcMotor rightBack;
-  private DcMotor clawFront;
-  private DcMotor clawBack;
-  private Servo clawFrontServo;
-  private Servo clawBackServoPos;
-  private Servo clawBackServoClaw;
-
+  private Servo clawColour;
   @Override
   public void runOpMode() {
 
@@ -66,11 +56,7 @@ public class AutoBall_RED extends LinearOpMode {
     rightFront = hardwareMap.dcMotor.get("RF");
     leftBack = hardwareMap.dcMotor.get("LB");
     rightBack = hardwareMap.dcMotor.get("RB");
-    clawFront = hardwareMap.dcMotor.get("CF");
-    clawBack = hardwareMap.dcMotor.get("CB");
-    clawFrontServo = hardwareMap.servo.get("CFS");
-    clawBackServoPos = hardwareMap.servo.get("CBSP");
-    clawBackServoClaw = hardwareMap.servo.get("CBSC");
+    clawColour = hardwareMap.servo.get("CC");
 
     // hsvValues is an array that will hold the hue, saturation, and value information.
     float hsvValues[] = {0F,0F,0F};
@@ -81,16 +67,43 @@ public class AutoBall_RED extends LinearOpMode {
     waitForStart();
     while (opModeIsActive()) {
 
-      telemetry.addData("Clear", colorSensor.alpha());
-      telemetry.addData("Red  ", colorSensor.red());
-      telemetry.addData("Green", colorSensor.green());
-      telemetry.addData("Blue ", colorSensor.blue());
-      telemetry.addData("Hue", hsvValues[0]);
-
+      if (    //red detected
+              (colorSensor.getI2cAddress()).equals(0x05)) {
+          driveStraight(-1, 500);
+      }
+      else {
+          driveStraight(1, 500);
+      }
       telemetry.update();
     }
   }
 
+  public void driveStraight(double speed, int time) {
+    rightFront.setPower(speed);
+    rightBack.setPower(speed);
+    leftFront.setPower(speed);
+    leftBack.setPower(speed);
+    sleep(time);
+    rightFront.setPower(0);
+    rightBack.setPower(0);
+    leftFront.setPower(0);
+    leftBack.setPower(0);
+
+  }
+
+  //positive speed for left turn
+  //negative speed for right turn
+  public void turn(double speed, int time) {
+    rightFront.setPower(speed);
+    rightBack.setPower(speed);
+    leftFront.setPower(-speed);
+    leftBack.setPower(-speed);
+    sleep(time);
+    rightFront.setPower(0);
+    rightBack.setPower(0);
+    leftFront.setPower(0);
+    leftBack.setPower(0);
+  }
   public void sleep(int i){
     long initial_time = System.currentTimeMillis();
     while(System.currentTimeMillis()-initial_time <i) {
