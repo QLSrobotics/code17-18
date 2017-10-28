@@ -47,11 +47,14 @@ public class DriveTrain extends LinearOpMode{
 
         while(opModeIsActive()) {
 
+            clawFrontServo.setPosition(-30);
+
             //joystick driving
-            leftFront.setPower(gamepad1.left_stick_y);
-            leftBack.setPower(gamepad1.left_stick_y);
-            rightFront.setPower(-gamepad1.right_stick_y);
-            rightBack.setPower(-gamepad1.right_stick_y);
+            leftFront.setPower(gamepad1.left_stick_y*1.2);
+            leftBack.setPower(gamepad1.left_stick_y*1.2);
+            rightFront.setPower(-gamepad1.right_stick_y*1.2);
+            rightBack.setPower(-gamepad1.right_stick_y*1.2);
+
 
 
             //controlling lift
@@ -77,22 +80,22 @@ public class DriveTrain extends LinearOpMode{
                 sleep(450);
                 clawBack.setPower(0);
             }
-            while (gamepad1.a) {
+            if (gamepad1.a) {
                 clawFrontServo.setPosition(30);
             }
-            while (gamepad1.b) {
+            if (gamepad1.b) {
                 clawFrontServo.setPosition(-30);
             }
-            while (gamepad1.x) {
-                clawBackServoClaw.setPosition(50);
-            }
-            while (gamepad1.y) {
+            if (gamepad1.x) {
                 clawBackServoClaw.setPosition(-50);
             }
-            while (gamepad1.left_stick_button) {
+            if (gamepad1.y) {
+                clawBackServoClaw.setPosition(50);
+            }
+            if (gamepad1.left_bumper) {
                 clawBackServoPos.setPosition(30);
             }
-            while (gamepad1.right_stick_button) {
+            if (gamepad1.right_bumper) {
                 clawBackServoPos.setPosition(-30);
             }
 
