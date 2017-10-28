@@ -25,6 +25,7 @@ public class DriveTrain extends LinearOpMode{
     private Servo clawFrontServo;
     private Servo clawBackServoPos;
     private Servo clawBackServoClaw;
+    private Servo clawColour;
 
     @Override
     public void runOpMode() throws InterruptedException {
@@ -41,6 +42,7 @@ public class DriveTrain extends LinearOpMode{
         clawFrontServo = hardwareMap.servo.get("CFS");
         clawBackServoPos = hardwareMap.servo.get("CBSP");
         clawBackServoClaw = hardwareMap.servo.get("CBSC");
+        clawColour = hardwareMap.servo.get("CC");
 
         waitForStart();
         runtime.reset();

@@ -82,11 +82,13 @@ public class AutoBall_BLUE extends LinearOpMode {
       // convert the RGB values to HSV values.
       Color.RGBToHSV(colorSensor.red() * 8, colorSensor.green() * 8, colorSensor.blue() * 8, hsvValues);
 
-      telemetry.addData("Clear", colorSensor.alpha());
-      telemetry.addData("Red  ", colorSensor.red());
-      telemetry.addData("Green", colorSensor.green());
-      telemetry.addData("Blue ", colorSensor.blue());
-      telemetry.addData("Hue", hsvValues[0]);
+      if (    //blue detected
+              (colorSensor.getI2cAddress()).equals(0x07)) {
+        driveStraight(-1, 500);
+      }
+      else {
+        driveStraight(1, 500);
+      }
 
       telemetry.update();
     }

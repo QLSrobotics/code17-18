@@ -47,12 +47,7 @@ public class AutoBall_RED extends LinearOpMode {
   private DcMotor rightFront;
   private DcMotor leftBack;
   private DcMotor rightBack;
-  private DcMotor clawFront;
-  private DcMotor clawBack;
-  private Servo clawFrontServo;
-  private Servo clawBackServoPos;
-  private Servo clawBackServoClaw;
-
+  private Servo clawColour;
   @Override
   public void runOpMode() {
 
@@ -61,11 +56,7 @@ public class AutoBall_RED extends LinearOpMode {
     rightFront = hardwareMap.dcMotor.get("RF");
     leftBack = hardwareMap.dcMotor.get("LB");
     rightBack = hardwareMap.dcMotor.get("RB");
-    clawFront = hardwareMap.dcMotor.get("CF");
-    clawBack = hardwareMap.dcMotor.get("CB");
-    clawFrontServo = hardwareMap.servo.get("CFS");
-    clawBackServoPos = hardwareMap.servo.get("CBSP");
-    clawBackServoClaw = hardwareMap.servo.get("CBSC");
+    clawColour = hardwareMap.servo.get("CC");
 
     // hsvValues is an array that will hold the hue, saturation, and value information.
     float hsvValues[] = {0F,0F,0F};
@@ -81,6 +72,14 @@ public class AutoBall_RED extends LinearOpMode {
       telemetry.addData("Green", colorSensor.green());
       telemetry.addData("Blue ", colorSensor.blue());
       telemetry.addData("Hue", hsvValues[0]);
+
+      if (    //red detected
+              (colorSensor.getI2cAddress()).equals(0x05)) {
+          driveStraight(-1, 500);
+      }
+      else {
+          driveStraight(1, 500);
+      }
       telemetry.update();
     }
   }
