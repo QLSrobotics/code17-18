@@ -4,6 +4,7 @@ import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
 /**
@@ -21,6 +22,9 @@ public class DriveTrain extends LinearOpMode{
     private DcMotor rightBack;
     private DcMotor clawFront;
     private DcMotor clawBack;
+    private Servo clawFrontServo;
+    private Servo clawBackServoPos;
+    private Servo clawBackServoClaw;
 
     @Override
     public void runOpMode() throws InterruptedException {
@@ -34,6 +38,9 @@ public class DriveTrain extends LinearOpMode{
         rightBack = hardwareMap.dcMotor.get("RB");
         clawFront = hardwareMap.dcMotor.get("CF");
         clawBack = hardwareMap.dcMotor.get("CB");
+        clawFrontServo = hardwareMap.servo.get("CFS");
+//        clawBackServoPos = hardwareMap.servo.get("CBSP");
+//        clawBackServoClaw = hardwareMap.servo.get("CBSC");
 
         waitForStart();
         runtime.reset();
@@ -49,33 +56,36 @@ public class DriveTrain extends LinearOpMode{
 
             //controlling lift
             if (gamepad1.dpad_up) {
-                clawFront.setPower(-0.5);
-                sleep(100);
+                clawFront.setPower(-0.4);
+                sleep(450);
                 clawFront.setPower(0);
 
             }
             if (gamepad1.dpad_down) {
-                clawFront.setPower(0.5);
-                sleep(100);
+                clawFront.setPower(0.4);
+                sleep(450);
                 clawFront.setPower(0);
             }
-            while (gamepad1.dpad_left) {
-                clawBack.setPower(-0.5);
-                sleep(100);
+            if (gamepad1.dpad_left) {
+                clawBack.setPower(-0.4);
+                sleep(450);
                 clawBack.setPower(0);
             }
-            while (gamepad1.dpad_right) {
-                clawBack.setPower(0.5);
-                sleep(100);
+            if (gamepad1.dpad_right) {
+                clawBack.setPower(0.4);
+                sleep(450);
                 clawBack.setPower(0);
             }
-
+            while (gamepad1.a) {
+                clawFrontServo.setPosition(30);
+            }
 
 
             //updating robot status and display on driver station
             telemetry.addData("Status", "Run Time: " + runtime.toString());
             //refresh
             telemetry.update();
+
 
         }
 
