@@ -54,7 +54,7 @@ public class DriveTrain extends LinearOpMode{
             leftBack.setPower(gamepad1.left_stick_y*1.2);
             rightFront.setPower(-gamepad1.right_stick_y*1.2);
             rightBack.setPower(-gamepad1.right_stick_y*1.2);
-            
+
             //controlling lift
             if (gamepad1.dpad_up) {
                 clawFront.setPower(-0.4);
