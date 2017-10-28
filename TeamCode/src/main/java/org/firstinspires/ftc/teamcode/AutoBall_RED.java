@@ -67,12 +67,6 @@ public class AutoBall_RED extends LinearOpMode {
     waitForStart();
     while (opModeIsActive()) {
 
-      telemetry.addData("Clear", colorSensor.alpha());
-      telemetry.addData("Red  ", colorSensor.red());
-      telemetry.addData("Green", colorSensor.green());
-      telemetry.addData("Blue ", colorSensor.blue());
-      telemetry.addData("Hue", hsvValues[0]);
-
       if (    //red detected
               (colorSensor.getI2cAddress()).equals(0x05)) {
           driveStraight(-1, 500);
