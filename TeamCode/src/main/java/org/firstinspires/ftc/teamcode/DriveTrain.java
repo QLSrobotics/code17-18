@@ -48,6 +48,7 @@ public class DriveTrain extends LinearOpMode{
         while(opModeIsActive()) {
 
             clawFrontServo.setPosition(-30);
+            clawFrontServo.setPosition(0);
 
             //joystick driving
             leftFront.setPower(gamepad1.left_stick_y*1.2);
@@ -110,7 +111,7 @@ public class DriveTrain extends LinearOpMode{
 
     }
 
-    
+
     public void sleep(int i){
         long initial_time = System.currentTimeMillis();
         while(System.currentTimeMillis()-initial_time <i){
