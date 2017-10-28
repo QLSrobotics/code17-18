@@ -84,15 +84,15 @@ public class DriveTrain extends LinearOpMode{
                 clawFrontServo.setPosition(-30);
             }
             while (gamepad1.x) {
-                clawBackServoClaw.setPosition(30);
+                clawBackServoClaw.setPosition(50);
             }
             while (gamepad1.y) {
-                clawBackServoClaw.setPosition(-30);
+                clawBackServoClaw.setPosition(-50);
             }
-            while (gamepad1.left_bumper) {
+            while (gamepad1.left_stick_button) {
                 clawBackServoPos.setPosition(30);
             }
-            while (gamepad1.right_bumper) {
+            while (gamepad1.right_stick_button) {
                 clawBackServoPos.setPosition(-30);
             }
 
