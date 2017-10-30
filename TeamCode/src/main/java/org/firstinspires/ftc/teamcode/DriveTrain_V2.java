@@ -56,10 +56,10 @@ public class DriveTrain_V2 extends LinearOpMode{
 
             //controlling lift
             if (gamepad1.dpad_up) {
-                clawFront.setPower(-0.4);
+                clawFront.setPower(-0.3);
             }
             if (gamepad1.dpad_down) {
-                clawFront.setPower(0.4);
+                clawFront.setPower(0.3);
             }
             //stopped the vertical lift
             if (gamepad1.left_bumper) {
