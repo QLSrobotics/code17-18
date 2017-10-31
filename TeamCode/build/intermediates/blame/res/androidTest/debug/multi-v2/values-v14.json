@@ -4,23 +4,7 @@
             "outputFile": "/Users/William/Developer/AndroidApplication/code17-18/TeamCode/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v14/values-v14.xml",
             "map": [
                 {
-                    "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/8195b18020a11946e01137df15fd0db4/res/values-v14/values-v14.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "201"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/William/AndroidStudioProjects/code17-18/TeamCode/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v14/values-v14.xml",
-            "map": [
-                {
-                    "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/a9b6eb2523d94d09326e3c18c71af573/res/values-v14/values-v14.xml",
+                    "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/values-v14/values-v14.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
