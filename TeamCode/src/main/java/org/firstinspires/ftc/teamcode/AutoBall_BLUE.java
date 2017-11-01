@@ -52,11 +52,7 @@ public class AutoBall_BLUE extends LinearOpMode {
   private DcMotor rightFront;
   private DcMotor leftBack;
   private DcMotor rightBack;
-  private DcMotor clawFront;
-  private DcMotor clawBack;
-  private Servo clawFrontServo;
-  private Servo clawBackServoPos;
-  private Servo clawBackServoClaw;
+  public Servo clawColour;
 
   @Override
   public void runOpMode() {
@@ -66,11 +62,7 @@ public class AutoBall_BLUE extends LinearOpMode {
     rightFront = hardwareMap.dcMotor.get("RF");
     leftBack = hardwareMap.dcMotor.get("LB");
     rightBack = hardwareMap.dcMotor.get("RB");
-    clawFront = hardwareMap.dcMotor.get("CF");
-    clawBack = hardwareMap.dcMotor.get("CB");
-    clawFrontServo = hardwareMap.servo.get("CFS");
-    clawBackServoPos = hardwareMap.servo.get("CBSP");
-    clawBackServoClaw = hardwareMap.servo.get("CBSC");
+    clawColour = hardwareMap.servo.get("CC");
 
     float hsvValues[] = {0F,0F,0F};
     final float values[] = hsvValues;
@@ -82,11 +74,13 @@ public class AutoBall_BLUE extends LinearOpMode {
       // convert the RGB values to HSV values.
       Color.RGBToHSV(colorSensor.red() * 8, colorSensor.green() * 8, colorSensor.blue() * 8, hsvValues);
 
+      clawColour.setPosition(-90);
       if (    //blue detected
               (colorSensor.getI2cAddress()).equals(0x07)) {
         driveStraight(-1, 500);
       }
-      else {
+      else if (
+              (colorSensor.getI2cAddress()).equals(0x05)){
         driveStraight(1, 500);
       }
 

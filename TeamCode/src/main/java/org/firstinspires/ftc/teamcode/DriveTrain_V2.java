@@ -67,22 +67,16 @@ public class DriveTrain_V2 extends LinearOpMode{
             }
 
             if (gamepad1.a) {
-                clawFrontServo.setPosition(30);
+                clawFrontServo.setPosition(50);
             }
             if (gamepad1.b) {
-                clawFrontServo.setPosition(-30);
+                clawFrontServo.setPosition(-50);
             }
             if (gamepad1.x) {
                 clawBackServoClaw.setPosition(-50);
             }
             if (gamepad1.y) {
                 clawBackServoClaw.setPosition(50);
-            }
-            if (gamepad1.left_bumper) {
-                clawBackServoPos.setPosition(30);
-            }
-            if (gamepad1.right_bumper) {
-                clawBackServoPos.setPosition(-30);
             }
 
             //updating robot status and display on driver station
