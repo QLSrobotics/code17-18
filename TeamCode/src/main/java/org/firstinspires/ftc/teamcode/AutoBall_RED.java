@@ -29,6 +29,8 @@
 
 package org.firstinspires.ftc.teamcode;
 
+import android.graphics.Color;
+
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
@@ -48,6 +50,8 @@ public class AutoBall_RED extends LinearOpMode {
   private DcMotor leftBack;
   private DcMotor rightBack;
   private Servo clawColour;
+  private double colourThreshold = 100;  //color boundry between blue and red
+  private boolean detectingColour = true;
   @Override
   public void runOpMode() {
 
@@ -58,29 +62,36 @@ public class AutoBall_RED extends LinearOpMode {
     rightBack = hardwareMap.dcMotor.get("RB");
     clawColour = hardwareMap.servo.get("CC");
 
-    // hsvValues is an array that will hold the hue, saturation, and value information.
     float hsvValues[] = {0F,0F,0F};
-
-    // values is a reference to the hsvValues array.
     final float values[] = hsvValues;
-    colorSensor = hardwareMap.get(ColorSensor.class, "sensor_color");
+    colorSensor = hardwareMap.get(ColorSensor.class, "sensor_color_front");
     waitForStart();
     while (opModeIsActive()) {
 
-      if (    //red detected
-              (colorSensor.getI2cAddress()).equals(0x05)) {
-          driveStraight(-1, 500);
-      }
-      else {
+      Color.RGBToHSV(colorSensor.red() * 8, colorSensor.green() * 8, colorSensor.blue() * 8, hsvValues);
+
+      clawColour.setPosition(-90);
+      sleep(700);
+      while(detectingColour) {
+        if ((hsvValues[0] <= colourThreshold - 10 && hsvValues[0] > 0)) {
           driveStraight(1, 500);
+        }
+        else if ((hsvValues[0] > colourThreshold + 10)) {
+          driveStraight(-1, 500);
+        }
+        detectingColour = false;
       }
+      //program terminated
+      clawColour.setPosition(90);
+
       telemetry.update();
+      idle();
     }
   }
 
   public void driveStraight(double speed, int time) {
-    rightFront.setPower(speed);
-    rightBack.setPower(speed);
+    rightFront.setPower(-speed);
+    rightBack.setPower(-speed);
     leftFront.setPower(speed);
     leftBack.setPower(speed);
     sleep(time);
@@ -96,8 +107,8 @@ public class AutoBall_RED extends LinearOpMode {
   public void turn(double speed, int time) {
     rightFront.setPower(speed);
     rightBack.setPower(speed);
-    leftFront.setPower(-speed);
-    leftBack.setPower(-speed);
+    leftFront.setPower(speed);
+    leftBack.setPower(speed);
     sleep(time);
     rightFront.setPower(0);
     rightBack.setPower(0);

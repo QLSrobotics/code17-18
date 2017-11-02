@@ -52,11 +52,9 @@ public class AutoBall_BLUE extends LinearOpMode {
   private DcMotor rightFront;
   private DcMotor leftBack;
   private DcMotor rightBack;
-  private DcMotor clawFront;
-  private DcMotor clawBack;
-  private Servo clawFrontServo;
-  private Servo clawBackServoPos;
-  private Servo clawBackServoClaw;
+  public Servo clawColour;
+  private double colourThreshold = 100; //color boundry between blue and red
+  private boolean detectingColour = true;
 
   @Override
   public void runOpMode() {
@@ -66,15 +64,11 @@ public class AutoBall_BLUE extends LinearOpMode {
     rightFront = hardwareMap.dcMotor.get("RF");
     leftBack = hardwareMap.dcMotor.get("LB");
     rightBack = hardwareMap.dcMotor.get("RB");
-    clawFront = hardwareMap.dcMotor.get("CF");
-    clawBack = hardwareMap.dcMotor.get("CB");
-    clawFrontServo = hardwareMap.servo.get("CFS");
-    clawBackServoPos = hardwareMap.servo.get("CBSP");
-    clawBackServoClaw = hardwareMap.servo.get("CBSC");
+    clawColour = hardwareMap.servo.get("CC");
 
     float hsvValues[] = {0F,0F,0F};
     final float values[] = hsvValues;
-    colorSensor = hardwareMap.get(ColorSensor.class, "sensor_color");
+    colorSensor = hardwareMap.get(ColorSensor.class, "sensor_color_front");
     waitForStart();
 
     while (opModeIsActive()) {
@@ -82,21 +76,28 @@ public class AutoBall_BLUE extends LinearOpMode {
       // convert the RGB values to HSV values.
       Color.RGBToHSV(colorSensor.red() * 8, colorSensor.green() * 8, colorSensor.blue() * 8, hsvValues);
 
-      if (    //blue detected
-              (colorSensor.getI2cAddress()).equals(0x07)) {
-        driveStraight(-1, 500);
+      clawColour.setPosition(-90);
+      sleep(700);
+      while (detectingColour) {
+        if ((hsvValues[0] > colourThreshold + 10)) {
+          driveStraight(-1, 500);
+        }
+        else if ((hsvValues[0] <= colourThreshold - 10 && hsvValues[0] > 0)) {
+          driveStraight(1, 500);
+        }
+        detectingColour = false;
       }
-      else {
-        driveStraight(1, 500);
-      }
+      //program terminated
+      clawColour.setPosition(90);
 
       telemetry.update();
+      idle();
     }
 
   }
   public void driveStraight(double speed, int time) {
-    rightFront.setPower(speed);
-    rightBack.setPower(speed);
+    rightFront.setPower(-speed);
+    rightBack.setPower(-speed);
     leftFront.setPower(speed);
     leftBack.setPower(speed);
     sleep(time);
@@ -112,8 +113,8 @@ public class AutoBall_BLUE extends LinearOpMode {
   public void turn(double speed, int time) {
     rightFront.setPower(speed);
     rightBack.setPower(speed);
-    leftFront.setPower(-speed);
-    leftBack.setPower(-speed);
+    leftFront.setPower(speed);
+    leftBack.setPower(speed);
     sleep(time);
     rightFront.setPower(0);
     rightBack.setPower(0);
