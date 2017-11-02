@@ -1,5 +1,6 @@
 package org.firstinspires.ftc.teamcode;
 
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
@@ -18,7 +19,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.VuforiaTrackables;
 
 
 @TeleOp(name="VuforiaCameraTest", group ="Team11920")
-//@Disabled
+@Disabled
 public class VuforiaCameraTest extends LinearOpMode {
 
     public static final String TAG = "Vuforia VuMark Sample";
