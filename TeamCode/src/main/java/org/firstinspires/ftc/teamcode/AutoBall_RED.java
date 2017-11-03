@@ -89,7 +89,7 @@ public class AutoBall_RED extends LinearOpMode {
     }
   }
 
-  public void driveStraight(double speed, int time) {
+  private void driveStraight(double speed, int time) {
     rightFront.setPower(-speed);
     rightBack.setPower(-speed);
     leftFront.setPower(speed);
@@ -104,7 +104,7 @@ public class AutoBall_RED extends LinearOpMode {
 
   //positive speed for left turn
   //negative speed for right turn
-  public void turn(double speed, int time) {
+  private void turn(double speed, int time) {
     rightFront.setPower(speed);
     rightBack.setPower(speed);
     leftFront.setPower(speed);
