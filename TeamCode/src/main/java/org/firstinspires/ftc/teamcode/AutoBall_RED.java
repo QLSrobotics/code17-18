@@ -70,7 +70,7 @@ public class AutoBall_RED extends LinearOpMode {
 
       Color.RGBToHSV(colorSensor.red() * 8, colorSensor.green() * 8, colorSensor.blue() * 8, hsvValues);
 
-      clawColour.setPosition(-90);
+      clawColour.setPosition(-100);
       sleep(700);
       while(detectingColour) {
         if ((hsvValues[0] <= colourThreshold - 10 && hsvValues[0] > 0)) {
@@ -82,7 +82,7 @@ public class AutoBall_RED extends LinearOpMode {
         detectingColour = false;
       }
       //program terminated
-      clawColour.setPosition(90);
+      clawColour.setPosition(100);
 
       telemetry.update();
       idle();

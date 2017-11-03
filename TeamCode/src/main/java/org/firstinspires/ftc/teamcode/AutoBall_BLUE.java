@@ -76,7 +76,7 @@ public class AutoBall_BLUE extends LinearOpMode {
       // convert the RGB values to HSV values.
       Color.RGBToHSV(colorSensor.red() * 8, colorSensor.green() * 8, colorSensor.blue() * 8, hsvValues);
 
-      clawColour.setPosition(-90);
+      clawColour.setPosition(-100);
       sleep(700);
       while (detectingColour) {
         if ((hsvValues[0] > colourThreshold + 10)) {
@@ -88,7 +88,7 @@ public class AutoBall_BLUE extends LinearOpMode {
         detectingColour = false;
       }
       //program terminated
-      clawColour.setPosition(90);
+      clawColour.setPosition(100);
 
       telemetry.update();
       idle();
