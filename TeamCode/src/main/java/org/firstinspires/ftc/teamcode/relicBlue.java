@@ -41,7 +41,7 @@ public class relicBlue extends LinearOpMode {
         waitForStart();
         while (opModeIsActive()) {
 
-            clawFrontServo.setPosition(50);
+            clawFrontServo.setPosition(90);
 
             sleep(1000);
 
@@ -67,9 +67,9 @@ public class relicBlue extends LinearOpMode {
                     sleep(1000);
                     clawColour.setPosition(0);
                     sleep(1000);
-                    moveStraight(-0.5,1000);
+                    moveStraight(-0.5,1100);
                     sleep(1000);
-                    turn(0.48,950);
+                    turn(0.5,1200);
                     sleep(1000);
                     moveStraight(0.45,400);
                     sleep(1000);
@@ -79,9 +79,9 @@ public class relicBlue extends LinearOpMode {
                     sleep(1000);
                     clawColour.setPosition(0);
                     sleep(1000);
-                    moveStraight(-0.5, 1600);
+                    moveStraight(-0.5, 1700);
                     sleep(1000);
-                    turn(0.48, 950);
+                    turn(0.5, 1200);
                     sleep(1000);
                     moveStraight(0.45, 400);
                     sleep(1000);
@@ -89,9 +89,9 @@ public class relicBlue extends LinearOpMode {
                 default:
                     clawColour.setPosition(0);
                     sleep(1000);
-                    moveStraight(-0.5, 1200);
+                    moveStraight(-0.5, 1400);
                     sleep(1000);
-                    turn(0.48, 950);
+                    turn(0.5, 1200);
                     sleep(1000);
                     moveStraight(0.45, 400);
                     sleep(1000);
@@ -103,7 +103,7 @@ public class relicBlue extends LinearOpMode {
             //program terminated
             sleep(1000);
 
-            clawFrontServo.setPosition(0);
+            clawFrontServo.setPosition(-90);
 
             telemetry.update();
             idle();

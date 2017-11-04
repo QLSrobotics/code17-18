@@ -41,7 +41,7 @@ public class farBlue extends LinearOpMode {
         waitForStart();
         while (opModeIsActive()) {
 
-            clawFrontServo.setPosition(50);
+            clawFrontServo.setPosition(90);
 
             sleep(1000);
 
@@ -70,9 +70,9 @@ public class farBlue extends LinearOpMode {
                     sleep(1000);
                     moveStraight(-0.5,700);
                     sleep(1000);
-                    turn(0.48,2900);
+                    turn(-0.5,2000);
                     sleep(1000);
-                    moveStraight(0.45,500);
+                    moveStraight(0.45,600);
                     sleep(1000);
                     break;
                 case "BLUE":
@@ -82,7 +82,7 @@ public class farBlue extends LinearOpMode {
                     sleep(1000);
                     moveStraight(-0.5,1300);
                     sleep(1000);
-                    turn(0.48,2900);
+                    turn(-0.5,2000);
                     sleep(1000);
                     moveStraight(0.45,600);
                     sleep(1000);
@@ -92,7 +92,7 @@ public class farBlue extends LinearOpMode {
                     sleep(1000);
                     moveStraight(-0.5,850);
                     sleep(1000);
-                    turn(0.48,2900);
+                    turn(-0.5,2000);
                     sleep(1000);
                     moveStraight(0.45,600);
                     sleep(1000);
@@ -104,7 +104,7 @@ public class farBlue extends LinearOpMode {
             //program terminated
             sleep(1000);
 
-            clawFrontServo.setPosition(0);
+            clawFrontServo.setPosition(-90);
 
             telemetry.update();
             idle();
