@@ -71,9 +71,9 @@ public class farRed extends LinearOpMode {
                     sleep(1000);
                     moveStraight(0.5,700);
                     sleep(1000);
-                    turn(0.48,400);
+                    turn(-0.5,500);
                     sleep(1000);
-                    moveStraight(0.45,600);
+                    moveStraight(0.5,600);
                     sleep(1000);
                     break;
                 case "BLUE":
@@ -83,19 +83,19 @@ public class farRed extends LinearOpMode {
                     sleep(1000);
                     moveStraight(0.5,1000);
                     sleep(1000);
-                    turn(0.48,400);
+                    turn(-0.5,500);
                     sleep(1000);
-                    moveStraight(0.45,600);
+                    moveStraight(0.5,600);
                     sleep(1000);
                     break;
                 default:
                     clawColour.setPosition(0);
                     sleep(1000);
-                    moveStraight(0.5,850);
+                    moveStraight(0.5,900);
                     sleep(1000);
-                    turn(0.48,400);
+                    turn(-0.5,500);
                     sleep(1000);
-                    moveStraight(0.45,600);
+                    moveStraight(0.5,600);
                     sleep(1000);
                     break;
             }

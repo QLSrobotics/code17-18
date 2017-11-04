@@ -70,9 +70,9 @@ public class farBlue extends LinearOpMode {
                     sleep(1000);
                     moveStraight(-0.5,700);
                     sleep(1000);
-                    turn(0.48,2900);
+                    turn(-0.5,2000);
                     sleep(1000);
-                    moveStraight(0.45,500);
+                    moveStraight(0.45,600);
                     sleep(1000);
                     break;
                 case "BLUE":
@@ -82,7 +82,7 @@ public class farBlue extends LinearOpMode {
                     sleep(1000);
                     moveStraight(-0.5,1300);
                     sleep(1000);
-                    turn(0.48,2900);
+                    turn(-0.5,2000);
                     sleep(1000);
                     moveStraight(0.45,600);
                     sleep(1000);
@@ -92,7 +92,7 @@ public class farBlue extends LinearOpMode {
                     sleep(1000);
                     moveStraight(-0.5,850);
                     sleep(1000);
-                    turn(0.48,2900);
+                    turn(-0.5,2000);
                     sleep(1000);
                     moveStraight(0.45,600);
                     sleep(1000);
