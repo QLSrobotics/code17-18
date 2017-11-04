@@ -15,7 +15,6 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 public class relicRed extends LinearOpMode {
 
     private ColorSensor colorSensorBack;    // Hardware Device Object
-    private ElapsedTime runtime = new ElapsedTime();
     private DcMotor leftFront;
     private DcMotor rightFront;
     private DcMotor leftBack;
@@ -43,7 +42,7 @@ public class relicRed extends LinearOpMode {
         while (opModeIsActive()) {
             clawFrontServo.setPosition(50);
 
-            sleep(2000);
+            sleep(1000);
 
             //lower servo arm
             clawColour.setPosition(180);
@@ -52,8 +51,6 @@ public class relicRed extends LinearOpMode {
 
             // convert the RGB values to HSV values.
             Color.RGBToHSV(colorSensorBack.red() * 8, colorSensorBack.green() * 8, colorSensorBack.blue() * 8, hsvValues);
-
-            sleep(1000);
 
             //reading color
             if ((hsvValues[0] > COLOUR_THRESHOLD)) {

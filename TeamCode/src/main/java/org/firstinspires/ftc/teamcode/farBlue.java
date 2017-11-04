@@ -15,7 +15,6 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 public class farBlue extends LinearOpMode {
 
     private ColorSensor colorSensorBack;    // Hardware Device Object
-    private ElapsedTime runtime = new ElapsedTime();
     private DcMotor leftFront;
     private DcMotor rightFront;
     private DcMotor leftBack;
@@ -42,7 +41,7 @@ public class farBlue extends LinearOpMode {
         waitForStart();
         while (opModeIsActive()) {
 
-            clawFrontServo.setPosition(-50);
+            clawFrontServo.setPosition(50);
 
             sleep(1000);
 
@@ -53,7 +52,6 @@ public class farBlue extends LinearOpMode {
             // convert the RGB values to HSV values.
             Color.RGBToHSV(colorSensorBack.red() * 8, colorSensorBack.green() * 8, colorSensorBack.blue() * 8, hsvValues);
 
-
             //reading color
             if ((hsvValues[0] > COLOUR_THRESHOLD)) {
                 ballColour = "BLUE";
@@ -63,28 +61,28 @@ public class farBlue extends LinearOpMode {
             }
 
             sleep(1000);
-
             //knocking ball
             switch (ballColour) {
                 case "RED":
                     moveStraight(-0.5,300);
                     sleep(1000);
                     clawColour.setPosition(0);
-                    moveStraight(0.5,700);
                     sleep(1000);
-                    turn(0.48,450);
+                    moveStraight(-0.5,700);
+                    sleep(1000);
+                    turn(0.48,2900);
                     sleep(1000);
                     moveStraight(0.45,500);
                     sleep(1000);
                     break;
                 case "BLUE":
-                    moveStraight(-0.5,300);
+                    moveStraight(0.5,300);
                     sleep(1000);
                     clawColour.setPosition(0);
                     sleep(1000);
-                    moveStraight(0.5,1000);
+                    moveStraight(-0.5,1300);
                     sleep(1000);
-                    turn(0.48,400);
+                    turn(0.48,2900);
                     sleep(1000);
                     moveStraight(0.45,600);
                     sleep(1000);
@@ -92,9 +90,9 @@ public class farBlue extends LinearOpMode {
                 default:
                     clawColour.setPosition(0);
                     sleep(1000);
-                    moveStraight(0.5,850);
+                    moveStraight(-0.5,850);
                     sleep(1000);
-                    turn(0.48,400);
+                    turn(0.48,2900);
                     sleep(1000);
                     moveStraight(0.45,600);
                     sleep(1000);
@@ -106,7 +104,7 @@ public class farBlue extends LinearOpMode {
             //program terminated
             sleep(1000);
 
-            clawFrontServo.setPosition(40);
+            clawFrontServo.setPosition(0);
 
             telemetry.update();
             idle();
