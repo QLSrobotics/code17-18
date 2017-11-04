@@ -52,7 +52,7 @@ public class AutoBall_BLUE extends LinearOpMode {
   private DcMotor rightFront;
   private DcMotor leftBack;
   private DcMotor rightBack;
-  public Servo clawColour;
+  private Servo clawColour;
   private double colourThreshold = 100; //color boundry between blue and red
   private boolean detectingColour = true;
 
@@ -76,7 +76,7 @@ public class AutoBall_BLUE extends LinearOpMode {
       // convert the RGB values to HSV values.
       Color.RGBToHSV(colorSensor.red() * 8, colorSensor.green() * 8, colorSensor.blue() * 8, hsvValues);
 
-      clawColour.setPosition(-90);
+      clawColour.setPosition(110);
       sleep(700);
       while (detectingColour) {
         if ((hsvValues[0] > colourThreshold + 10)) {
