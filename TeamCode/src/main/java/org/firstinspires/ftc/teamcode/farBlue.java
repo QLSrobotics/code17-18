@@ -24,10 +24,7 @@ public class farBlue extends LinearOpMode {
     private Servo clawFrontServo;
     private final double COLOUR_THRESHOLD = 100;  //color boundry between blue and red
     private String ballColour = "";
-    static final double COUNTS_PER_MOTOR_REV = 1120;    // eg: Andy mark Motor Encoder
-    static final double WHEEL_DIAMETER_INCHES = 4.0;     // For figuring circumference
-    double countsl = 0;
-    double countsr = 0;
+
     @Override
     public void runOpMode() {
 
@@ -39,17 +36,6 @@ public class farBlue extends LinearOpMode {
         clawColour = hardwareMap.servo.get("CC");
         clawFrontServo = hardwareMap.servo.get("CFS");
 
-        rightBack.setDirection(DcMotor.Direction.REVERSE);
-        rightFront.setDirection(DcMotor.Direction.REVERSE);
-        leftFront.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-        leftFront.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-        leftBack.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-        leftBack.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-        rightFront.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-        rightFront.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-        rightBack.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-        rightBack.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-
         float hsvValues[] = {0F,0F,0F};
         final float values[] = hsvValues;
         colorSensorBack = hardwareMap.get(ColorSensor.class, "sensor_color_back");
@@ -58,12 +44,15 @@ public class farBlue extends LinearOpMode {
 
             clawFrontServo.setPosition(-50);
 
+            sleep(1000);
+
+            //lower arm
+            clawColour.setPosition(180);
+            sleep(1000);
+
             // convert the RGB values to HSV values.
             Color.RGBToHSV(colorSensorBack.red() * 8, colorSensorBack.green() * 8, colorSensorBack.blue() * 8, hsvValues);
 
-            //lower servo arm
-            clawColour.setPosition(180);
-            sleep(1000);
 
             //reading color
             if ((hsvValues[0] > COLOUR_THRESHOLD)) {
@@ -73,29 +62,49 @@ public class farBlue extends LinearOpMode {
                 ballColour = "RED";
             }
 
+            sleep(1000);
+
             //knocking ball
             switch (ballColour) {
                 case "RED":
-                    moveStraight(-1, 1);
+                    moveStraight(-0.5,300);
+                    sleep(1000);
+                    clawColour.setPosition(0);
+                    moveStraight(0.5,700);
+                    sleep(1000);
+                    turn(0.48,450);
+                    sleep(1000);
+                    moveStraight(0.45,500);
+                    sleep(1000);
                     break;
                 case "BLUE":
-                    moveStraight(1, 1);
+                    moveStraight(-0.5,300);
+                    sleep(1000);
+                    clawColour.setPosition(0);
+                    sleep(1000);
+                    moveStraight(0.5,1000);
+                    sleep(1000);
+                    turn(0.48,400);
+                    sleep(1000);
+                    moveStraight(0.45,600);
+                    sleep(1000);
                     break;
                 default:
+                    clawColour.setPosition(0);
+                    sleep(1000);
+                    moveStraight(0.5,850);
+                    sleep(1000);
+                    turn(0.48,400);
+                    sleep(1000);
+                    moveStraight(0.45,600);
+                    sleep(1000);
                     break;
             }
 
             //clear container
             ballColour = "";
             //program terminated
-            clawColour.setPosition(-180);
-
             sleep(1000);
-
-            moveStraight(-1,1);
-            turn(-1,1);
-            moveStraight(-1,1);
-            turn(1,1);
 
             clawFrontServo.setPosition(40);
 

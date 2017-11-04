@@ -24,10 +24,7 @@ public class relicBlue extends LinearOpMode {
     private Servo clawFrontServo;
     private final double COLOUR_THRESHOLD = 100;  //color boundry between blue and red
     private String ballColour = "";
-    static final double COUNTS_PER_MOTOR_REV = 1120;    // eg: Andy mark Motor Encoder
-    static final double WHEEL_DIAMETER_INCHES = 4.0;     // For figuring circumference
-    double countsl = 0;
-    double countsr = 0;
+
     @Override
     public void runOpMode() {
 
@@ -38,17 +35,6 @@ public class relicBlue extends LinearOpMode {
         rightBack = hardwareMap.dcMotor.get("RB");
         clawColour = hardwareMap.servo.get("CC");
         clawFrontServo = hardwareMap.servo.get("CFS");
-
-        rightBack.setDirection(DcMotor.Direction.REVERSE);
-        rightFront.setDirection(DcMotor.Direction.REVERSE);
-        leftFront.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-        leftFront.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-        leftBack.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-        leftBack.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-        rightFront.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-        rightFront.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-        rightBack.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-        rightBack.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
         float hsvValues[] = {0F,0F,0F};
         final float values[] = hsvValues;
@@ -80,11 +66,11 @@ public class relicBlue extends LinearOpMode {
             //knocking ball
             switch (ballColour) {
                 case "RED":
-                    moveStraight(0.5, 300);
+                    moveStraight(-0.5, 300);
                     sleep(1000);
                     clawColour.setPosition(0);
                     sleep(1000);
-                    moveStraight(-0.5,1600);
+                    moveStraight(-0.5,1000);
                     sleep(1000);
                     turn(0.48,950);
                     sleep(1000);
@@ -92,11 +78,11 @@ public class relicBlue extends LinearOpMode {
                     sleep(1000);
                     break;
                 case "BLUE":
-                    moveStraight(-0.5, 300);
+                    moveStraight(0.5, 300);
                     sleep(1000);
                     clawColour.setPosition(0);
                     sleep(1000);
-                    moveStraight(-0.5, 1000);
+                    moveStraight(-0.5, 1600);
                     sleep(1000);
                     turn(0.48, 950);
                     sleep(1000);
@@ -106,7 +92,7 @@ public class relicBlue extends LinearOpMode {
                 default:
                     clawColour.setPosition(0);
                     sleep(1000);
-                    moveStraight(-0.5, 1300);
+                    moveStraight(-0.5, 1200);
                     sleep(1000);
                     turn(0.48, 950);
                     sleep(1000);
@@ -117,9 +103,8 @@ public class relicBlue extends LinearOpMode {
 
             //clear container
             ballColour = "";
-
+            //program terminated
             sleep(1000);
-
 
             clawFrontServo.setPosition(40);
 
