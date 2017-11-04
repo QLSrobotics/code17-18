@@ -6,9 +6,6 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-/**
- * Created by William on 9/19/17.
- */
 @TeleOp(name="DriveTrain_V2", group="Team11920")
 //@Disabled
 public class DriveTrain_V2 extends LinearOpMode{

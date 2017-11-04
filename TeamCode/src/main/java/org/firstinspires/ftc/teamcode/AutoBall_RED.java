@@ -40,7 +40,7 @@ import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
 @Autonomous(name = "AutoBall_RED", group = "Team11920")
-//@Disabled
+@Disabled
 public class AutoBall_RED extends LinearOpMode {
 
   private ColorSensor colorSensorBack;
@@ -52,7 +52,7 @@ public class AutoBall_RED extends LinearOpMode {
   private Servo clawColour;
   private Servo clawFrontServo;
   private double colourThreshold = 100;  //color boundry between blue and red
-  private String ballColor = "";
+  private String ballColour = "";
   @Override
   public void runOpMode() {
 
@@ -76,12 +76,24 @@ public class AutoBall_RED extends LinearOpMode {
       clawColour.setPosition(120);
       sleep(700);
       if ((hsvValues[0] <= colourThreshold - 10 && hsvValues[0] > 0)) {
-          ballColor = "RED";
+          ballColour = "RED";
       }
       else if ((hsvValues[0] > colourThreshold + 10)) {
-          ballColor = "BLUE";
+          ballColour = "BLUE";
+      }
+      switch (ballColour) {
+        case "RED":
+          driveStraight(1, 300);
+          break;
+        case "BLUE":
+          driveStraight(-1, 300);
+          break;
+        default:
+          break;
       }
 
+      //clear container
+      ballColour = "";
       
       //program terminated
       clawColour.setPosition(-120);

@@ -7,10 +7,6 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-/**
- * Created by hima on 11/3/17.
- */
-
 @TeleOp(name="farRed", group="Team11920")
 
 
@@ -25,6 +21,7 @@ public class farRed extends LinearOpMode {
     private Servo clawColour;
     private Servo clawFrontServo;
     private double colourThreshold = 100;  //color boundry between blue and red
+    private String ballColour = "";
     @Override
     public void runOpMode() {
 
@@ -45,6 +42,7 @@ public class farRed extends LinearOpMode {
             clawFrontServo.setPosition(-50);
 
             //williams stuff
+
 
             driveStraight(1,5);
             turn(1,2);

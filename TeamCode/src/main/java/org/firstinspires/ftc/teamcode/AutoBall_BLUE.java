@@ -43,7 +43,7 @@ import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
 @Autonomous(name = "AutoBall_BLUE", group = "Team11920")
-//@Disabled
+@Disabled
 public class AutoBall_BLUE extends LinearOpMode {
 
   private ColorSensor colorSensorBack;
@@ -93,10 +93,10 @@ public class AutoBall_BLUE extends LinearOpMode {
       //knocking ball
       switch (ballColour) {
         case "RED":
-          driveStraight(-1, 500);
+          driveStraight(-1, 300);
           break;
         case "BLUE":
-          driveStraight(1, 500);
+          driveStraight(1, 300);
           break;
         default:
           break;
