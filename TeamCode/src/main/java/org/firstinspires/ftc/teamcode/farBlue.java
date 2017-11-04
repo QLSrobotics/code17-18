@@ -76,10 +76,10 @@ public class farBlue extends LinearOpMode {
             //knocking ball
             switch (ballColour) {
                 case "RED":
-                    drive(-1, 1);
+                    moveStraight(-1, 1);
                     break;
                 case "BLUE":
-                    drive(1, 1);
+                    moveStraight(1, 1);
                     break;
                 default:
                     break;
@@ -92,9 +92,9 @@ public class farBlue extends LinearOpMode {
 
             sleep(1000);
 
-            drive(-1,1);
+            moveStraight(-1,1);
             turn(-1,1);
-            drive(-1,1);
+            moveStraight(-1,1);
             turn(1,1);
 
             clawFrontServo.setPosition(40);
@@ -104,50 +104,28 @@ public class farBlue extends LinearOpMode {
             break;
         }
     }
-    //in memory of Mr. Harsha
-    public void drive(double distance, double power) {
-        double x;
-        x = (distance * 12 * COUNTS_PER_MOTOR_REV) / (WHEEL_DIAMETER_INCHES * 3.1415);
-        countsl=countsl-x;
-        countsr=countsr-x;
-        leftFront.setTargetPosition((int)countsl);
-        leftFront.setMode(DcMotor.RunMode.RUN_TO_POSITION);
-        leftFront.setPower(-1*power);
-        leftBack.setTargetPosition((int)countsl);
-        leftBack.setMode(DcMotor.RunMode.RUN_TO_POSITION);
-        leftBack.setPower(-1*power);
-        rightFront.setTargetPosition((int)countsr);
-        rightFront.setMode(DcMotor.RunMode.RUN_TO_POSITION);
-        rightFront.setPower(-1*power);
-        rightBack.setTargetPosition((int)countsr);
-        rightBack.setMode(DcMotor.RunMode.RUN_TO_POSITION);
-        rightBack.setPower(-1*power);
-        while (leftFront.isBusy() && leftBack.isBusy() && rightFront.isBusy() && rightBack.isBusy()) {
-
-        }
+    public void moveStraight(double power, int time) {
+        leftFront.setPower(power);
+        leftBack.setPower(power);
+        rightFront.setPower(-power);
+        rightBack.setPower(-power);
+        sleep(time);
+        leftFront.setPower(0);
+        leftBack.setPower(0);
+        rightFront.setPower(0);
+        rightBack.setPower(0);
     }
-
-
-    public void turn(double distance, double power) {
-        double x;
-        x = (distance * 12 * COUNTS_PER_MOTOR_REV) / (WHEEL_DIAMETER_INCHES * 3.14159);
-        countsl=countsl-x;
-        countsr=countsr+x;
-        leftFront.setTargetPosition((int)countsl);
-        leftFront.setMode(DcMotor.RunMode.RUN_TO_POSITION);
-        leftFront.setPower(-1*power);
-        leftBack.setTargetPosition((int)countsl);
-        leftBack.setMode(DcMotor.RunMode.RUN_TO_POSITION);
-        leftBack.setPower(-1*power);
-        rightFront.setTargetPosition((int)countsr);
-        rightFront.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+    //positive power turning left
+    public void turn(double power, int time) {
+        leftFront.setPower(power);
+        leftBack.setPower(power);
         rightFront.setPower(power);
-        rightBack.setTargetPosition((int)countsr);
-        rightBack.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         rightBack.setPower(power);
-        while (leftFront.isBusy() && leftBack.isBusy() && rightFront.isBusy() && rightBack.isBusy()) {
-
-        }
+        sleep(time);
+        leftFront.setPower(0);
+        leftBack.setPower(0);
+        rightFront.setPower(0);
+        rightBack.setPower(0);
     }
     public void sleep(int i){
         long initial_time = System.currentTimeMillis();

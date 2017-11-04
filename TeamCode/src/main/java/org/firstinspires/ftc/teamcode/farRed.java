@@ -89,7 +89,7 @@ public class farRed extends LinearOpMode {
                     clawColour.setPosition(0);
                     moveStraight(0.5,1000);
                     sleep(1000);
-                    turn(0.45,950);
+                    turn(0.48,950);
                     sleep(1000);
                     moveStraight(0.45,400);
                     sleep(1000);
@@ -102,7 +102,7 @@ public class farRed extends LinearOpMode {
                     clawColour.setPosition(0);
                     moveStraight(0.5,1000);
                     sleep(1000);
-                    turn(0.45,950);
+                    turn(0.48,950);
                     sleep(1000);
                     moveStraight(0.5,400);
                     sleep(1000);
@@ -112,7 +112,7 @@ public class farRed extends LinearOpMode {
                     sleep(1000);
                     moveStraight(0.5,1200);
                     sleep(1000);
-                    turn(0.45,950);
+                    turn(0.48,950);
                     sleep(1000);
                     moveStraight(0.5,400);
                     sleep(1000);
