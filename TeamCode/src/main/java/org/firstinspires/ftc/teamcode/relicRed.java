@@ -40,7 +40,7 @@ public class relicRed extends LinearOpMode {
         colorSensorBack = hardwareMap.get(ColorSensor.class, "sensor_color_back");
         waitForStart();
         while (opModeIsActive()) {
-            clawFrontServo.setPosition(50);
+            clawFrontServo.setPosition(90);
 
             sleep(1000);
 
@@ -102,7 +102,7 @@ public class relicRed extends LinearOpMode {
             ballColour = "";
             //program terminated
             sleep(1000);
-            clawFrontServo.setPosition(-180);
+            clawFrontServo.setPosition(-90);
 
             telemetry.update();
             idle();

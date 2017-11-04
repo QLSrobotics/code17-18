@@ -41,7 +41,7 @@ public class relicBlue extends LinearOpMode {
         waitForStart();
         while (opModeIsActive()) {
 
-            clawFrontServo.setPosition(50);
+            clawFrontServo.setPosition(90);
 
             sleep(1000);
 
@@ -103,7 +103,7 @@ public class relicBlue extends LinearOpMode {
             //program terminated
             sleep(1000);
 
-            clawFrontServo.setPosition(-180);
+            clawFrontServo.setPosition(-90);
 
             telemetry.update();
             idle();
