@@ -43,15 +43,16 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 //@Disabled
 public class AutoBall_RED extends LinearOpMode {
 
-  ColorSensor colorSensor;    // Hardware Device Object
+  private ColorSensor colorSensorBack;
   private ElapsedTime runtime = new ElapsedTime();
   private DcMotor leftFront;
   private DcMotor rightFront;
   private DcMotor leftBack;
   private DcMotor rightBack;
   private Servo clawColour;
+  private Servo clawFrontServo;
   private double colourThreshold = 100;  //color boundry between blue and red
-  private boolean detectingColour = true;
+  private String ballColor = "";
   @Override
   public void runOpMode() {
 
@@ -61,28 +62,29 @@ public class AutoBall_RED extends LinearOpMode {
     leftBack = hardwareMap.dcMotor.get("LB");
     rightBack = hardwareMap.dcMotor.get("RB");
     clawColour = hardwareMap.servo.get("CC");
+    clawFrontServo = hardwareMap.servo.get("CFS");
 
     float hsvValues[] = {0F,0F,0F};
     final float values[] = hsvValues;
-    colorSensor = hardwareMap.get(ColorSensor.class, "sensor_color_front");
+    colorSensorBack = hardwareMap.get(ColorSensor.class, "sensor_color_back");
+
     waitForStart();
     while (opModeIsActive()) {
 
-      Color.RGBToHSV(colorSensor.red() * 8, colorSensor.green() * 8, colorSensor.blue() * 8, hsvValues);
+      Color.RGBToHSV(colorSensorBack.red() * 8, colorSensorBack.green() * 8, colorSensorBack.blue() * 8, hsvValues);
 
-      clawColour.setPosition(-100);
+      clawColour.setPosition(120);
       sleep(700);
-      while(detectingColour) {
-        if ((hsvValues[0] <= colourThreshold - 10 && hsvValues[0] > 0)) {
-          driveStraight(1, 500);
-        }
-        else if ((hsvValues[0] > colourThreshold + 10)) {
-          driveStraight(-1, 500);
-        }
-        detectingColour = false;
+      if ((hsvValues[0] <= colourThreshold - 10 && hsvValues[0] > 0)) {
+          ballColor = "RED";
       }
+      else if ((hsvValues[0] > colourThreshold + 10)) {
+          ballColor = "BLUE";
+      }
+
+      
       //program terminated
-      clawColour.setPosition(100);
+      clawColour.setPosition(-120);
 
       telemetry.update();
       idle();

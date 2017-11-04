@@ -22,8 +22,6 @@ public class DriveTrain_V2 extends LinearOpMode{
     private DcMotor clawFront;
     private DcMotor clawBack;
     private Servo clawFrontServo;
-    private Servo clawBackServoPos;
-    private Servo clawBackServoClaw;
     private Servo clawColour;
 
     @Override
@@ -39,8 +37,6 @@ public class DriveTrain_V2 extends LinearOpMode{
         clawFront = hardwareMap.dcMotor.get("CF");
         clawBack = hardwareMap.dcMotor.get("CB");
         clawFrontServo = hardwareMap.servo.get("CFS");
-        clawBackServoPos = hardwareMap.servo.get("CBSP");
-        clawBackServoClaw = hardwareMap.servo.get("CBSC");
         clawColour = hardwareMap.servo.get("CC");
 
         waitForStart();
@@ -66,16 +62,10 @@ public class DriveTrain_V2 extends LinearOpMode{
                 clawFront.setPower(0);
             }
             if (gamepad1.a) {
-                clawFrontServo.setPosition(45);
+                clawFrontServo.setPosition(39);
             }
             if (gamepad1.b) {
-                clawFrontServo.setPosition(-45);
-            }
-            if (gamepad1.x) {
-                clawBackServoClaw.setPosition(-50);
-            }
-            if (gamepad1.y) {
-                clawBackServoClaw.setPosition(50);
+                clawFrontServo.setPosition(-39);
             }
 
             //updating robot status and display on driver station
