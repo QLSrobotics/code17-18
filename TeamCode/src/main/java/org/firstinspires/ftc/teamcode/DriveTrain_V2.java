@@ -42,10 +42,10 @@ public class DriveTrain_V2 extends LinearOpMode{
         while(opModeIsActive()) {
 
             //joystick driving
-            leftFront.setPower(-gamepad1.left_stick_y*1.2);
-            leftBack.setPower(-gamepad1.left_stick_y*1.2);
-            rightFront.setPower(gamepad1.right_stick_y*1.2);
-            rightBack.setPower(gamepad1.right_stick_y*1.2);
+            leftFront.setPower(-gamepad1.left_stick_y*1.25);
+            leftBack.setPower(-gamepad1.left_stick_y*1.25);
+            rightFront.setPower(gamepad1.right_stick_y*1.25);
+            rightBack.setPower(gamepad1.right_stick_y*1.25);
 
             //controlling lift
             if (gamepad1.dpad_up) {
@@ -59,10 +59,16 @@ public class DriveTrain_V2 extends LinearOpMode{
                 clawFront.setPower(0);
             }
             if (gamepad1.a) {
-                clawFrontServo.setPosition(39);
+                clawFrontServo.setPosition(38);
             }
             if (gamepad1.b) {
-                clawFrontServo.setPosition(-39);
+                clawFrontServo.setPosition(-38);
+            }
+            if (gamepad1.x) {
+                clawColour.setPosition(180);
+            }
+            if (gamepad1.y) {
+                clawColour.setPosition(0);
             }
 
             //updating robot status and display on driver station

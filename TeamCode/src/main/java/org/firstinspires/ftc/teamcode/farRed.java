@@ -15,7 +15,6 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 public class farRed extends LinearOpMode {
 
     private ColorSensor colorSensorBack;    // Hardware Device Object
-    private ElapsedTime runtime = new ElapsedTime();
     private DcMotor leftFront;
     private DcMotor rightFront;
     private DcMotor leftBack;
@@ -36,17 +35,6 @@ public class farRed extends LinearOpMode {
         rightBack = hardwareMap.dcMotor.get("RB");
         clawColour = hardwareMap.servo.get("CC");
         clawFrontServo = hardwareMap.servo.get("CFS");
-//
-//        rightBack.setDirection(DcMotor.Direction.REVERSE);
-//        rightFront.setDirection(DcMotor.Direction.REVERSE);
-//        leftFront.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-//        leftFront.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-//        leftBack.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-//        leftBack.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-//        rightFront.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-//        rightFront.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-//        rightBack.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-//        rightBack.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
         float hsvValues[] = {0F,0F,0F};
         final float values[] = hsvValues;
@@ -56,29 +44,22 @@ public class farRed extends LinearOpMode {
 
             clawFrontServo.setPosition(50);
 
-            sleep(2000);
+            sleep(1000);
 
             //lower servo arm
             clawColour.setPosition(180);
 
-            sleep(2000);
+            sleep(1000);
 
             // convert the RGB values to HSV values.
             Color.RGBToHSV(colorSensorBack.red() * 8, colorSensorBack.green() * 8, colorSensorBack.blue() * 8, hsvValues);
 
-            sleep(2000);
-
             //reading color
             if ((hsvValues[0] > COLOUR_THRESHOLD)) {
                 ballColour = "BLUE";
-                telemetry.addLine("color is BLUE");
             }
             else if ((hsvValues[0] <= COLOUR_THRESHOLD && hsvValues[0] > 0)) {
                 ballColour = "RED";
-                telemetry.addLine("color is RED");
-            }
-            else {
-                telemetry.addLine("color is not detected");
             }
             sleep(1000);
             //knocking ball
@@ -87,34 +68,34 @@ public class farRed extends LinearOpMode {
                     moveStraight(0.5,300);
                     sleep(1000);
                     clawColour.setPosition(0);
-                    moveStraight(0.5,1000);
                     sleep(1000);
-                    turn(0.45,950);
+                    moveStraight(0.5,700);
                     sleep(1000);
-                    moveStraight(0.45,400);
+                    turn(0.48,400);
+                    sleep(1000);
+                    moveStraight(0.45,600);
                     sleep(1000);
                     break;
                 case "BLUE":
                     moveStraight(-0.5,300);
                     sleep(1000);
-                    moveStraight(0.5,600);
-                    sleep(1000);
                     clawColour.setPosition(0);
+                    sleep(1000);
                     moveStraight(0.5,1000);
                     sleep(1000);
-                    turn(0.45,950);
+                    turn(0.48,400);
                     sleep(1000);
-                    moveStraight(0.5,400);
+                    moveStraight(0.45,600);
                     sleep(1000);
                     break;
                 default:
                     clawColour.setPosition(0);
                     sleep(1000);
-                    moveStraight(0.5,1200);
+                    moveStraight(0.5,850);
                     sleep(1000);
-                    turn(0.45,950);
+                    turn(0.48,400);
                     sleep(1000);
-                    moveStraight(0.5,400);
+                    moveStraight(0.45,600);
                     sleep(1000);
                     break;
             }
@@ -122,6 +103,7 @@ public class farRed extends LinearOpMode {
             //clear container
             ballColour = "";
             //program terminated
+            sleep(1000);
 
             clawFrontServo.setPosition(0);
 

@@ -15,7 +15,6 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 public class relicRed extends LinearOpMode {
 
     private ColorSensor colorSensorBack;    // Hardware Device Object
-    private ElapsedTime runtime = new ElapsedTime();
     private DcMotor leftFront;
     private DcMotor rightFront;
     private DcMotor leftBack;
@@ -43,29 +42,22 @@ public class relicRed extends LinearOpMode {
         while (opModeIsActive()) {
             clawFrontServo.setPosition(50);
 
-            sleep(2000);
+            sleep(1000);
 
             //lower servo arm
             clawColour.setPosition(180);
 
-            sleep(2000);
+            sleep(1000);
 
             // convert the RGB values to HSV values.
             Color.RGBToHSV(colorSensorBack.red() * 8, colorSensorBack.green() * 8, colorSensorBack.blue() * 8, hsvValues);
 
-            sleep(2000);
-
             //reading color
             if ((hsvValues[0] > COLOUR_THRESHOLD)) {
                 ballColour = "BLUE";
-                telemetry.addLine("color is BLUE");
             }
             else if ((hsvValues[0] <= COLOUR_THRESHOLD && hsvValues[0] > 0)) {
                 ballColour = "RED";
-                telemetry.addLine("color is RED");
-            }
-            else {
-                telemetry.addLine("color is not detected");
             }
             sleep(1000);
             //knocking ball
@@ -74,9 +66,10 @@ public class relicRed extends LinearOpMode {
                     moveStraight(0.5,300);
                     sleep(1000);
                     clawColour.setPosition(0);
+                    sleep(1000);
                     moveStraight(0.5,1000);
                     sleep(1000);
-                    turn(0.45,950);
+                    turn(0.48,950);
                     sleep(1000);
                     moveStraight(0.45,400);
                     sleep(1000);
@@ -84,12 +77,11 @@ public class relicRed extends LinearOpMode {
                 case "BLUE":
                     moveStraight(-0.5,300);
                     sleep(1000);
-                    moveStraight(0.5,600);
-                    sleep(1000);
                     clawColour.setPosition(0);
-                    moveStraight(0.5,1000);
                     sleep(1000);
-                    turn(0.45,950);
+                    moveStraight(0.5,1600);
+                    sleep(1000);
+                    turn(0.48,950);
                     sleep(1000);
                     moveStraight(0.5,400);
                     sleep(1000);
@@ -99,7 +91,7 @@ public class relicRed extends LinearOpMode {
                     sleep(1000);
                     moveStraight(0.5,1200);
                     sleep(1000);
-                    turn(0.45,950);
+                    turn(0.48,950);
                     sleep(1000);
                     moveStraight(0.5,400);
                     sleep(1000);
@@ -109,7 +101,7 @@ public class relicRed extends LinearOpMode {
             //clear container
             ballColour = "";
             //program terminated
-
+            sleep(1000);
             clawFrontServo.setPosition(0);
 
             telemetry.update();
