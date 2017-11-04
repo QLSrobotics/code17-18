@@ -24,7 +24,7 @@ public class template extends LinearOpMode {
     private DcMotor leftBack;
     private DcMotor rightBack;
     private Servo clawColour;
-    private Servo clawFrontServo
+    private Servo clawFrontServo;
     private double colourThreshold = 100;  //color boundry between blue and red
     private boolean detectingColour = true;
     @Override
