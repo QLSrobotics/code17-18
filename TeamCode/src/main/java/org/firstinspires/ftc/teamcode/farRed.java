@@ -24,8 +24,14 @@ public class farRed extends LinearOpMode {
     private Servo clawFrontServo;
     private final double COLOUR_THRESHOLD = 100;  //color boundry between blue and red
     private String ballColour = "";
+    static final double COUNTS_PER_MOTOR_REV = 1120;    // eg: Andy mark Motor Encoder
+    static final double WHEEL_DIAMETER_INCHES = 4.0;     // For figuring circumference
+    double countsl = 0;
+    double countsr = 0;
+
     @Override
     public void runOpMode() {
+
 
         //mapping the motor in this program to the motor in robot configuration
         leftFront = hardwareMap.dcMotor.get("LF");
@@ -34,6 +40,17 @@ public class farRed extends LinearOpMode {
         rightBack = hardwareMap.dcMotor.get("RB");
         clawColour = hardwareMap.servo.get("CC");
         clawFrontServo = hardwareMap.servo.get("CFS");
+
+        rightBack.setDirection(DcMotor.Direction.REVERSE);
+        rightFront.setDirection(DcMotor.Direction.REVERSE);
+        leftFront.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        leftFront.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        leftBack.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        leftBack.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        rightFront.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        rightFront.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        rightBack.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        rightBack.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
         float hsvValues[] = {0F,0F,0F};
         final float values[] = hsvValues;
@@ -61,10 +78,14 @@ public class farRed extends LinearOpMode {
             //knocking ball
             switch (ballColour) {
                 case "RED":
-                    driveStraight(1, 700);
+                    drive(1, 1);
+                    sleep(1000);
+                    drive(1,1);
                     break;
                 case "BLUE":
-                    driveStraight(-1, 700);
+                    drive(-1, 1);
+                    sleep(1000);
+                    drive(1,1);
                     break;
                 default:
                     break;
@@ -73,14 +94,14 @@ public class farRed extends LinearOpMode {
             //clear container
             ballColour = "";
             //program terminated
-            clawColour.setPosition(-180);
+            clawColour.setPosition(60);
 
             sleep(1000);
 
-            driveStraight(1,5);
-            turn(1,2);
-            driveStraight(1,2);
-            turn(-1,2);
+            //driveStraight(1,5);
+            turn(1,1);
+            drive(1,1);
+            turn(-1,1);
 
             clawFrontServo.setPosition(50);
 
@@ -90,31 +111,50 @@ public class farRed extends LinearOpMode {
         }
     }
 
-    private void driveStraight(double speed, int time) {
-        rightFront.setPower(-speed);
-        rightBack.setPower(-speed);
-        leftFront.setPower(speed);
-        leftBack.setPower(speed);
-        sleep(time);
-        rightFront.setPower(0);
-        rightBack.setPower(0);
-        leftFront.setPower(0);
-        leftBack.setPower(0);
+    //in memory of Mr. Harsha
+    public void drive(double distance, double power) {
+        double x;
+        x = (distance * 12 * COUNTS_PER_MOTOR_REV) / (WHEEL_DIAMETER_INCHES * 3.1415);
+        countsl=countsl-x;
+        countsr=countsr-x;
+        leftFront.setTargetPosition((int)countsl);
+        leftFront.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        leftFront.setPower(-1*power);
+        leftBack.setTargetPosition((int)countsl);
+        leftBack.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        leftBack.setPower(-1*power);
+        rightFront.setTargetPosition((int)countsr);
+        rightFront.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        rightFront.setPower(-1*power);
+        rightBack.setTargetPosition((int)countsr);
+        rightBack.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        rightBack.setPower(-1*power);
+        while (leftFront.isBusy() && leftBack.isBusy() && rightFront.isBusy() && rightBack.isBusy()) {
 
+        }
     }
 
-    //positive speed for left turn
-    //negative speed for right turn
-    private void turn(double speed, int time) {
-        rightFront.setPower(speed);
-        rightBack.setPower(speed);
-        leftFront.setPower(speed);
-        leftBack.setPower(speed);
-        sleep(time);
-        rightFront.setPower(0);
-        rightBack.setPower(0);
-        leftFront.setPower(0);
-        leftBack.setPower(0);
+
+    public void turn(double distance, double power) {
+        double x;
+        x = (distance * 12 * COUNTS_PER_MOTOR_REV) / (WHEEL_DIAMETER_INCHES * 3.14159);
+        countsl=countsl-x;
+        countsr=countsr+x;
+        leftFront.setTargetPosition((int)countsl);
+        leftFront.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        leftFront.setPower(-1*power);
+        leftBack.setTargetPosition((int)countsl);
+        leftBack.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        leftBack.setPower(-1*power);
+        rightFront.setTargetPosition((int)countsr);
+        rightFront.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        rightFront.setPower(power);
+        rightBack.setTargetPosition((int)countsr);
+        rightBack.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        rightBack.setPower(power);
+        while (leftFront.isBusy() && leftBack.isBusy() && rightFront.isBusy() && rightBack.isBusy()) {
+
+        }
     }
     public void sleep(int i){
         long initial_time = System.currentTimeMillis();
