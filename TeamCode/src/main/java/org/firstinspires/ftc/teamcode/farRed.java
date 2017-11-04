@@ -1,5 +1,8 @@
 package org.firstinspires.ftc.teamcode;
 
+import android.graphics.Color;
+
+import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.ColorSensor;
@@ -7,8 +10,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-@TeleOp(name="farRed", group="Team11920")
-
+@Autonomous(name="farRed", group="Team11920")
 
 public class farRed extends LinearOpMode {
 
@@ -20,7 +22,7 @@ public class farRed extends LinearOpMode {
     private DcMotor rightBack;
     private Servo clawColour;
     private Servo clawFrontServo;
-    private double colourThreshold = 100;  //color boundry between blue and red
+    private final double COLOUR_THRESHOLD = 100;  //color boundry between blue and red
     private String ballColour = "";
     @Override
     public void runOpMode() {
@@ -41,18 +43,50 @@ public class farRed extends LinearOpMode {
 
             clawFrontServo.setPosition(-50);
 
-            //williams stuff
+            // convert the RGB values to HSV values.
+            Color.RGBToHSV(colorSensorBack.red() * 8, colorSensorBack.green() * 8, colorSensorBack.blue() * 8, hsvValues);
 
+            //lower servo arm
+            clawColour.setPosition(180);
+            sleep(1000);
+
+            //reading color
+            if ((hsvValues[0] > COLOUR_THRESHOLD)) {
+                ballColour = "BLUE";
+            }
+            else if ((hsvValues[0] <= COLOUR_THRESHOLD && hsvValues[0] > 0)) {
+                ballColour = "RED";
+            }
+
+            //knocking ball
+            switch (ballColour) {
+                case "RED":
+                    driveStraight(1, 700);
+                    break;
+                case "BLUE":
+                    driveStraight(-1, 700);
+                    break;
+                default:
+                    break;
+            }
+
+            //clear container
+            ballColour = "";
+            //program terminated
+            clawColour.setPosition(-180);
+
+            sleep(1000);
 
             driveStraight(1,5);
             turn(1,2);
             driveStraight(1,2);
             turn(-1,2);
 
-            clawFrontServo.setPosition(40);
+            clawFrontServo.setPosition(50);
 
             telemetry.update();
             idle();
+            break;
         }
     }
 
