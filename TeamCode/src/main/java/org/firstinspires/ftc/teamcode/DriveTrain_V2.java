@@ -64,10 +64,10 @@ public class DriveTrain_V2 extends LinearOpMode{
             if (gamepad1.b) {
                 clawFrontServo.setPosition(90);
             }
-            if (gamepad1.x) {
+            if (gamepad1.left_bumper) {
                 clawColour.setPosition(180);
             }
-            if (gamepad1.y) {
+            if (gamepad1.right_bumper) {
                 clawColour.setPosition(0);
             }
 

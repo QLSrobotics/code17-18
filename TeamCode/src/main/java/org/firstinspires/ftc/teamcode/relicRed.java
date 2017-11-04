@@ -102,7 +102,7 @@ public class relicRed extends LinearOpMode {
             ballColour = "";
             //program terminated
             sleep(1000);
-            clawFrontServo.setPosition(0);
+            clawFrontServo.setPosition(-180);
 
             telemetry.update();
             idle();

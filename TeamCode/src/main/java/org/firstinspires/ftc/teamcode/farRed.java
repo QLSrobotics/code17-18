@@ -105,7 +105,7 @@ public class farRed extends LinearOpMode {
             //program terminated
             sleep(1000);
 
-            clawFrontServo.setPosition(0);
+            clawFrontServo.setPosition(-180);
 
             telemetry.update();
             idle();
