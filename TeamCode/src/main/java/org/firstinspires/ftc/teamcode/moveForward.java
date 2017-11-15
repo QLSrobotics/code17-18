@@ -31,7 +31,7 @@ public class moveForward extends LinearOpMode{
     private DcMotor leftBack;
     private DcMotor rightBack;
     private Servo clawColour;
-    private Servo clawFrontServo
+    private Servo clawFrontServo;
     private double colourThreshold = 100;  //color boundry between blue and red
     private boolean detectingColour = true;
     @Override
@@ -43,7 +43,7 @@ public class moveForward extends LinearOpMode{
         leftBack = hardwareMap.dcMotor.get("LB");
         rightBack = hardwareMap.dcMotor.get("RB");
         clawColour = hardwareMap.servo.get("CC");
-        clawFrontServo = hardwareMap.servo.get("CFS")
+        clawFrontServo = hardwareMap.servo.get("CFS");
 
         float hsvValues[] = {0F,0F,0F};
         final float values[] = hsvValues;
