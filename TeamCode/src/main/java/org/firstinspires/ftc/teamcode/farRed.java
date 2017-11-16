@@ -16,16 +16,22 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 
 public class farRed extends LinearOpMode {
 
-    ColorSensor colorSensor;    // Hardware Device Object
     private ElapsedTime runtime = new ElapsedTime();
     private DcMotor leftFront;
     private DcMotor rightFront;
     private DcMotor leftBack;
     private DcMotor rightBack;
+
     private Servo clawColour;
     private Servo clawFrontServo;
-    private double colourThreshold = 100;  //color boundry between blue and red
-    private boolean detectingColour = true;
+
+    ColorSensor colSensFrnt;
+    ColorSensor colSensBack;
+
+    int blue = 60;
+    int red = 60;
+    int minVal = 20;
+    String frontBallCol;
     @Override
     public void runOpMode() {
 
@@ -34,25 +40,23 @@ public class farRed extends LinearOpMode {
         rightFront = hardwareMap.dcMotor.get("RF");
         leftBack = hardwareMap.dcMotor.get("LB");
         rightBack = hardwareMap.dcMotor.get("RB");
+
         clawColour = hardwareMap.servo.get("CC");
         clawFrontServo = hardwareMap.servo.get("CFS");
 
-        float hsvValues[] = {0F,0F,0F};
-        final float values[] = hsvValues;
-        colorSensor = hardwareMap.get(ColorSensor.class, "sensor_color_front");
+        colSensBack = hardwareMap.colorSensor.get("CSB");
+        colSensFrnt = hardwareMap.colorSensor.get("CSF");
+
+
+
         waitForStart();
         while (opModeIsActive()) {
 
             clawFrontServo.setPosition(-50);
 
-            //williams stuff
+            sleep(2000);
 
-            driveStraight(1,5);
-            turn(1,2);
-            driveStraight(1,2);
-            turn(-1,2);
-
-            clawFrontServo.setPosition(40);
+            frontBallCol = checkCol();
 
             telemetry.update();
             idle();
@@ -88,6 +92,20 @@ public class farRed extends LinearOpMode {
     public void sleep(int i){
         long initial_time = System.currentTimeMillis();
         while(System.currentTimeMillis()-initial_time <i) {
+        }
+    }
+
+    public String checkCol(){
+        if (colSensFrnt.red()>= red && colSensBack.blue()>= blue){
+            return "red";
+        }else if(colSensFrnt.blue()>= blue && colSensBack.red()>= red) {
+            return "blue";
+        }else if (colSensFrnt.red()>= red && colSensBack.blue()<= minVal) {
+            return "red";
+        }else if (colSensFrnt.blue()>= blue && colSensBack.red()<= minVal ){
+            return "blue";
+        }else{
+            return "undef";
         }
     }
 }
