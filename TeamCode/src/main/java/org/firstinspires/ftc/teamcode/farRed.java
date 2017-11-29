@@ -28,9 +28,9 @@ public class farRed extends LinearOpMode {
     ColorSensor colSensFrnt;
     ColorSensor colSensBack;
 
-    int blue = 60;
-    int red = 60;
-    int minVal = 20;
+    int blue = 60; // variables will edit values
+    int red = 60; // variables will edit values
+    int minVal = 20; // variables will edit values
     String frontBallCol;
     @Override
     public void runOpMode() {
@@ -95,7 +95,7 @@ public class farRed extends LinearOpMode {
         }
     }
 
-    public String checkCol(){
+    public String checkCol(){ // color sensor algorithm
         if (colSensFrnt.red()>= red && colSensBack.blue()>= blue){
             return "red";
         }else if(colSensFrnt.blue()>= blue && colSensBack.red()>= red) {
