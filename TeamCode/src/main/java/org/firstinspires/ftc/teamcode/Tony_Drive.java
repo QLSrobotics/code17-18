@@ -82,8 +82,8 @@ public class Tony_Drive extends LinearOpMode{
             if (gamepad1.b){alSer.setPosition(.5);}
 
             //folding mtoer
-            if (gamepad1.dpad_up){folMot.setPower(1);}
-            if (gamepad1.dpad_down){folMot.setPower(-1);}
+            if (gamepad1.dpad_up){folMot.setPower(0.5);}
+            if (gamepad1.dpad_down){folMot.setPower(-0.5);}
             if (gamepad1.dpad_right){folMot.setPower(0);}
 
             //intakes
