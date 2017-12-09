@@ -65,7 +65,7 @@ public class DriveTrain_V2 extends LinearOpMode{
                 clawFrontServo.setPosition(0);
             }
             if (gamepad1.b) {
-                clawFrontServo.setPosition(1);
+                clawFrontServo.setPosition(.5);
             }
             if(gamepad1.x){
                 clawFrontServo.setPosition(.9);

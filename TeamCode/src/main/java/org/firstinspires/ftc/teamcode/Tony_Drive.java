@@ -34,8 +34,10 @@ public class Tony_Drive extends LinearOpMode{
         down dpad down
         stop dpad right
 
-    dump servo (x/y)
+    dump servo + dump2 (x/y)
     algiment servo (a/b)
+    back servo (lft right trigger)
+
 
 
     full suite of meccum motion
@@ -56,6 +58,8 @@ public class Tony_Drive extends LinearOpMode{
 
     private Servo dumSer;
     private Servo alSer;
+    private Servo dumSer2;
+    private Servo backSer;
 
     public void runOpMode()throws InterruptedException{
 
@@ -70,16 +74,22 @@ public class Tony_Drive extends LinearOpMode{
         folMot = hardwareMap.dcMotor.get("folmot");
 
         dumSer = hardwareMap.servo.get("dser");
+        dumSer2 = hardwareMap.servo.get("dser2");
         alSer = hardwareMap.servo.get("aser");
+        backSer = hardwareMap.servo.get("bser");
 
         while(opModeIsActive()){
             //dump servo
-            if (gamepad1.x){dumSer.setPosition(.75); }
-            if (gamepad1.y){dumSer.setPosition(.5);}
+            if (gamepad1.x){dumSer.setPosition(.75); dumSer2.setPosition(.5);}
+            if (gamepad1.y){dumSer.setPosition(.5); dumSer2.setPosition(.75);}
 
             //algiment servo
             if (gamepad1.a){alSer.setPosition(.75);}
             if (gamepad1.b){alSer.setPosition(.5);}
+
+            //back servo
+            if(gamepad1.left_trigger>.5){backSer.setPosition(.75);}
+            if(gamepad1.right_trigger>.5){backSer.setPosition(.5);}
 
             //folding mtoer
             if (gamepad1.dpad_up){folMot.setPower(0.5);}
@@ -91,11 +101,17 @@ public class Tony_Drive extends LinearOpMode{
             if(gamepad1.right_bumper){inR.setPower(1); inL.setPower(-1);}
             if(gamepad1.dpad_left){inR.setPower(0); inL.setPower(0);}
 
-            //meccanm stuff
-            flWheel.setPower(gamepad1.right_stick_x+gamepad1.left_stick_y+gamepad1.left_stick_x);
-            frWheel.setPower(-gamepad1.right_stick_x+gamepad1.left_stick_y-gamepad1.left_stick_x);
-            brWheel.setPower(gamepad1.right_stick_x+gamepad1.left_stick_y-gamepad1.left_stick_x);
-            blWheel.setPower(-gamepad1.right_stick_x+gamepad1.left_stick_y+gamepad1.left_stick_x);
+            //tnak drive
+            flWheel.setPower(gamepad1.left_stick_y);
+            blWheel.setPower(gamepad1.left_stick_y);
+            frWheel.setPower(gamepad1.right_stick_y);
+            brWheel.setPower(gamepad1.right_stick_y);
+
+//            //meccanm stuff
+//            flWheel.setPower(gamepad1.right_stick_x+gamepad1.left_stick_y+gamepad1.left_stick_x);
+//            frWheel.setPower(-gamepad1.right_stick_x+gamepad1.left_stick_y-gamepad1.left_stick_x);
+//            brWheel.setPower(gamepad1.right_stick_x+gamepad1.left_stick_y-gamepad1.left_stick_x);
+//            blWheel.setPower(-gamepad1.right_stick_x+gamepad1.left_stick_y+gamepad1.left_stick_x);
 
 
 
