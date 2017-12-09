@@ -24,6 +24,14 @@ public class farBlue extends LinearOpMode {
     private DcMotor rightBack;
     private Servo clawColour;
     private Servo clawFrontServo;
+    ColorSensor colSensFrnt;
+    ColorSensor colSensBack;
+
+    int blue = 60;
+    int red = 60;
+    int minVal = 20;
+    String frontBallCol;
+
     private double colourThreshold = 100;  //color boundry between blue and red
     private boolean detectingColour = true;
     @Override
@@ -43,16 +51,62 @@ public class farBlue extends LinearOpMode {
         waitForStart();
         while (opModeIsActive()) {
 
-            clawFrontServo.setPosition(-50);
+            //checks if the ball is red
+            if(checkCol()== "red") {
 
-            //williams stuff
+                //Moves forward to knock the red ball off
+                driveStraight(1, 2);
 
-            driveStraight(-1,5);
-            turn(-1,2);
-            driveStraight(-1,2);
-            turn(1,2);
+                //lifts the arm
+                clawColour.setPosition(40);
 
-            clawFrontServo.setPosition(40);
+
+                //turns left 180 to face towards the shelf
+                turn(1, 5);
+
+                //move forward to put the cube in the shelf
+                driveStraight(1, 2);
+
+                //opens claw
+                clawFrontServo.setPosition(50);
+            }
+            //if the ball is blue
+            else if (checkCol()== "blue") {
+
+                //move backward to knock the red ball
+                driveStraight(-1, 2);
+
+                //lift the arm up
+                clawColour.setPosition(40);
+
+
+                //turn left 180 facing the shelf
+                turn(1, 5);
+
+                //move forward to shelf
+                driveStraight(1, 5);
+
+
+                //open claw
+                clawFrontServo.setPosition(50);
+            }
+
+            else if (checkCol()== "undef"){
+                //lift the arm up
+                clawColour.setPosition(40);
+
+
+                //turn left 180 facing the shelf
+                turn(1, 5);
+
+                //move forward to shelf
+                driveStraight(1, 5);
+
+
+                //open claw
+                clawFrontServo.setPosition(50);
+
+            }
 
             telemetry.update();
             idle();
@@ -90,4 +144,19 @@ public class farBlue extends LinearOpMode {
         while(System.currentTimeMillis()-initial_time <i) {
         }
     }
+
+    public String checkCol(){
+        if (colSensFrnt.red()>= red && colSensBack.blue()>= blue){
+            return "red";
+        }else if(colSensFrnt.blue()>= blue && colSensBack.red()>= red) {
+            return "blue";
+        }else if (colSensFrnt.red()>= red && colSensBack.blue()<= minVal) {
+            return "red";
+        }else if (colSensFrnt.blue()>= blue && colSensBack.red()<= minVal ){
+            return "blue";
+        }else{
+            return "undef";
+        }
+    }
+
 }

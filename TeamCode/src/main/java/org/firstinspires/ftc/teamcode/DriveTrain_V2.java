@@ -22,8 +22,6 @@ public class DriveTrain_V2 extends LinearOpMode{
     private DcMotor clawFront;
     private DcMotor clawBack;
     private Servo clawFrontServo;
-    private Servo clawBackServoPos;
-    private Servo clawBackServoClaw;
     private Servo clawColour;
 
     @Override
@@ -39,8 +37,6 @@ public class DriveTrain_V2 extends LinearOpMode{
         clawFront = hardwareMap.dcMotor.get("CF");
         clawBack = hardwareMap.dcMotor.get("CB");
         clawFrontServo = hardwareMap.servo.get("CFS");
-        clawBackServoPos = hardwareMap.servo.get("CBSP");
-        clawBackServoClaw = hardwareMap.servo.get("CBSC");
         clawColour = hardwareMap.servo.get("CC");
 
         waitForStart();
@@ -49,10 +45,10 @@ public class DriveTrain_V2 extends LinearOpMode{
         while(opModeIsActive()) {
 
             //joystick driving
-            leftFront.setPower(-gamepad1.left_stick_y*1.2);
-            leftBack.setPower(-gamepad1.left_stick_y*1.2);
-            rightFront.setPower(gamepad1.right_stick_y*1.2);
-            rightBack.setPower(gamepad1.right_stick_y*1.2);
+            leftFront.setPower(-gamepad1.left_stick_y*1.25);
+            leftBack.setPower(-gamepad1.left_stick_y*1.25);
+            rightFront.setPower(gamepad1.right_stick_y*1.25);
+            rightBack.setPower(gamepad1.right_stick_y*1.25);
 
             //controlling lift
             if (gamepad1.dpad_up) {
@@ -66,16 +62,22 @@ public class DriveTrain_V2 extends LinearOpMode{
                 clawFront.setPower(0);
             }
             if (gamepad1.a) {
-                clawFrontServo.setPosition(45);
+                clawFrontServo.setPosition(0);
             }
             if (gamepad1.b) {
-                clawFrontServo.setPosition(-45);
+                clawFrontServo.setPosition(1);
             }
-            if (gamepad1.x) {
-                clawBackServoClaw.setPosition(-50);
+            if(gamepad1.x){
+                clawFrontServo.setPosition(.9);
             }
-            if (gamepad1.y) {
-                clawBackServoClaw.setPosition(50);
+            if(gamepad1.y){
+                clawFrontServo.setPosition(.1);
+            }
+            if (gamepad1.left_bumper) {
+                clawColour.setPosition(.9);
+            }
+            if (gamepad1.right_bumper) {
+                clawColour.setPosition(.1);
             }
 
             //updating robot status and display on driver station

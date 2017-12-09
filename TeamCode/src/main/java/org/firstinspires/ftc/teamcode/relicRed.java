@@ -18,12 +18,24 @@ public class relicRed extends LinearOpMode {
 
     ColorSensor colorSensor;    // Hardware Device Object
     private ElapsedTime runtime = new ElapsedTime();
+
     private DcMotor leftFront;
     private DcMotor rightFront;
     private DcMotor leftBack;
     private DcMotor rightBack;
+
     private Servo clawColour;
     private Servo clawFrontServo;
+
+    private ColorSensor colSensFrnt;
+    private ColorSensor colSensBack;
+
+
+    int blue = 60;
+    int red = 60;
+    int minVal = 20;
+    String frontBallCol;
+
     private double colourThreshold = 100;  //color boundry between blue and red
     private boolean detectingColour = true;
     @Override
@@ -34,8 +46,12 @@ public class relicRed extends LinearOpMode {
         rightFront = hardwareMap.dcMotor.get("RF");
         leftBack = hardwareMap.dcMotor.get("LB");
         rightBack = hardwareMap.dcMotor.get("RB");
+
         clawColour = hardwareMap.servo.get("CC");
         clawFrontServo = hardwareMap.servo.get("CFS");
+
+        colSensBack = hardwareMap.colorSensor.get("CSB1");
+        colSensFrnt = hardwareMap.colorSensor.get("CSF1");
 
         float hsvValues[] = {0F,0F,0F};
         final float values[] = hsvValues;
@@ -43,14 +59,52 @@ public class relicRed extends LinearOpMode {
         waitForStart();
         while (opModeIsActive()) {
 
-            clawFrontServo.setPosition(-50);
+            clawColour.setPosition(-50);
+            if(checkCol() == "blue"){
+                //this code goes back then lifts up the arm
+                driveStraight(-1,2);
+                clawColour.setPosition(40);
 
-            //williams stuff
+                driveStraight(1,5);
 
-            driveStraight(1,5);
-            turn(1,2);
+                driveStraight(1,2);
+                clawFrontServo.setPosition(50);
 
-            clawFrontServo.setPosition(40);
+
+            }else if (checkCol()=="red"){
+                driveStraight(-1, 2);
+                //this code makes the robot goes forward
+
+                clawColour.setPosition(40);
+                //moves the color sensor stick up
+
+                driveStraight(-1, 5);
+                //moves forward
+
+                turn(-1,5);
+                //turn left facing the cryptobox
+
+                driveStraight(-1, 5);
+                //moves forward
+
+                clawFrontServo.setPosition(50);
+                //open claw
+
+
+            }else if (checkCol() == "undef"){
+                clawColour.setPosition(40);
+                //moves the color sensor stick up
+                driveStraight(-1, 5);
+
+                //moves forward
+                turn(-1,7);
+                //turn left facing the cryptobox
+                driveStraight(-1, 5);
+                //moves forward
+                clawFrontServo.setPosition(50);
+                //open claw
+
+            }
 
             telemetry.update();
             idle();
@@ -83,6 +137,21 @@ public class relicRed extends LinearOpMode {
         leftFront.setPower(0);
         leftBack.setPower(0);
     }
+
+    public String checkCol(){
+        if (colSensFrnt.red()>= red && colSensBack.blue()>= blue){
+            return "red";
+        }else if(colSensFrnt.blue()>= blue && colSensBack.red()>= red) {
+            return "blue";
+        }else if (colSensFrnt.red()>= red && colSensBack.blue()<= minVal) {
+            return "red";
+        }else if (colSensFrnt.blue()>= blue && colSensBack.red()<= minVal ){
+            return "blue";
+        }else{
+            return "undef";
+        }
+    }
+
     public void sleep(int i){
         long initial_time = System.currentTimeMillis();
         while(System.currentTimeMillis()-initial_time <i) {
