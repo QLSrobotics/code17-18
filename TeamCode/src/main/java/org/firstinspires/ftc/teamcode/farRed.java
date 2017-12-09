@@ -29,10 +29,16 @@ public class farRed extends LinearOpMode {
     ColorSensor colSensFrnt;
     ColorSensor colSensBack;
 
+<<<<<<< HEAD
 
     int blue = 60;
     int red = 60;
     int minVal = 20;
+=======
+    int blue = 60; // variables will edit values
+    int red = 60; // variables will edit values
+    int minVal = 20; // variables will edit values
+>>>>>>> 8457cfedb89cc3df4064993b17bf9cc03c44c552
     String frontBallCol;
 
     private double colourThreshold = 100;  //color boundry between blue and red
@@ -169,7 +175,7 @@ public class farRed extends LinearOpMode {
         }
     }
 
-    public String checkCol(){
+    public String checkCol(){ // color sensor algorithm
         if (colSensFrnt.red()>= red && colSensBack.blue()>= blue){
             return "red";
         }else if(colSensFrnt.blue()>= blue && colSensBack.red()>= red) {
