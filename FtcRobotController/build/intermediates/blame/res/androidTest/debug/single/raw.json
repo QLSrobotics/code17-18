@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw/chimeconnect.wav",
+        "source": "/Users/hima/.android/build-cache/5b51ceff4e05ea77988a9498cf20ce73a148054a/output/res/raw/chimeconnect.wav"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw/texture_fragment_shader.glsl",
+        "source": "/Users/hima/.android/build-cache/a8f113b0935b3f474c57f90717df8728f02e9f10/output/res/raw/texture_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw/warningmessage.wav",
+        "source": "/Users/hima/.android/build-cache/5b51ceff4e05ea77988a9498cf20ce73a148054a/output/res/raw/warningmessage.wav"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw/cube_mesh_fragment_shader.glsl",
+        "source": "/Users/hima/.android/build-cache/a8f113b0935b3f474c57f90717df8728f02e9f10/output/res/raw/cube_mesh_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw/color_fragment_shader.glsl",
+        "source": "/Users/hima/.android/build-cache/a8f113b0935b3f474c57f90717df8728f02e9f10/output/res/raw/color_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw/chimedisconnect.wav",
+        "source": "/Users/hima/.android/build-cache/5b51ceff4e05ea77988a9498cf20ce73a148054a/output/res/raw/chimedisconnect.wav"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw/nxtstartupsound.wav",
+        "source": "/Users/hima/.android/build-cache/5b51ceff4e05ea77988a9498cf20ce73a148054a/output/res/raw/nxtstartupsound.wav"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw/texture_vertex_shader.glsl",
+        "source": "/Users/hima/.android/build-cache/a8f113b0935b3f474c57f90717df8728f02e9f10/output/res/raw/texture_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw/errormessage.wav",
+        "source": "/Users/hima/.android/build-cache/5b51ceff4e05ea77988a9498cf20ce73a148054a/output/res/raw/errormessage.wav"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw/cube_mesh_vertex_shader.glsl",
+        "source": "/Users/hima/.android/build-cache/a8f113b0935b3f474c57f90717df8728f02e9f10/output/res/raw/cube_mesh_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw/simple_vertex_shader.glsl",
+        "source": "/Users/hima/.android/build-cache/a8f113b0935b3f474c57f90717df8728f02e9f10/output/res/raw/simple_vertex_shader.glsl"
+    }
+]

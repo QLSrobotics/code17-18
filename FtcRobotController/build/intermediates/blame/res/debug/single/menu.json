@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/debug/menu/main_menu.xml",
+        "source": "/Users/hima/.android/build-cache/d8c103c350086673296fdd2e01d870f331fc262f/output/res/menu/main_menu.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/debug/menu/menu_server.xml",
+        "source": "/Users/hima/.android/build-cache/6baa859ce1f536c3452278909cb065d045c92702/output/res/menu/menu_server.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/debug/menu/ftc_robot_controller.xml",
+        "source": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/src/main/res/menu/ftc_robot_controller.xml"
+    }
+]

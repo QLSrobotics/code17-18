@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/TeamCode/build/intermediates/res/merged/debug/drawable/black_border.xml",
+        "source": "/Users/hima/.android/build-cache/6baa859ce1f536c3452278909cb065d045c92702/output/res/drawable/black_border.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/TeamCode/build/intermediates/res/merged/debug/drawable/button_shape.xml",
+        "source": "/Users/hima/.android/build-cache/5b51ceff4e05ea77988a9498cf20ce73a148054a/output/res/drawable/button_shape.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/TeamCode/build/intermediates/res/merged/debug/drawable/icon_robotcontroller.png",
+        "source": "/Users/hima/.android/build-cache/d8c103c350086673296fdd2e01d870f331fc262f/output/res/drawable/icon_robotcontroller.png"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/TeamCode/build/intermediates/res/merged/debug/drawable/icon_menu.png",
+        "source": "/Users/hima/.android/build-cache/d8c103c350086673296fdd2e01d870f331fc262f/output/res/drawable/icon_menu.png"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/TeamCode/build/intermediates/res/merged/debug/drawable/feedback_shape_orange.xml",
+        "source": "/Users/hima/.android/build-cache/a8f113b0935b3f474c57f90717df8728f02e9f10/output/res/drawable/feedback_shape_orange.xml"
+    }
+]
