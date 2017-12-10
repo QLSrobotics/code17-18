@@ -1,22 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jrogosic\\Documents\\GitHub\\code17-18\\FtcRobotController\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v11\\values-v11.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\jrogosic\\.gradle\\caches\\transforms-1\\files-1.1\\RobotCore-release.aar\\ad0cbb912a3ea67fc1a0df89d043e866\\res\\values-v11\\values-v11.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "187"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\William\\Developer\\AndroidApplication\\code17-18\\FtcRobotController\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
@@ -37,6 +21,22 @@
             "map": [
                 {
                     "source": "C:\\Users\\hima\\.gradle\\caches\\transforms-1\\files-1.1\\RobotCore-release.aar\\d8dc36179305e01e19f6a582d6457ecc\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\jrogosic\\Documents\\GitHub\\code17-18\\FtcRobotController\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jrogosic\\.gradle\\caches\\transforms-1\\files-1.1\\RobotCore-release.aar\\ad0cbb912a3ea67fc1a0df89d043e866\\res\\values-v11\\values-v11.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

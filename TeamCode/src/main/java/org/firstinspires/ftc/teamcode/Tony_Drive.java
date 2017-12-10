@@ -80,7 +80,7 @@ public class Tony_Drive extends LinearOpMode{
 
         while(opModeIsActive()){
             //dump servo
-            if (gamepad1.x){dumSer.setPosition(.75); dumSer2.setPosition(.5);}
+            if (gamepad1.x){dumSer.setPosition(.9); dumSer2.setPosition(.5);}
             if (gamepad1.y){dumSer.setPosition(.5); dumSer2.setPosition(.75);}
 
             //algiment servo
@@ -88,8 +88,8 @@ public class Tony_Drive extends LinearOpMode{
             if (gamepad1.b){alSer.setPosition(.5);}
 
             //back servo
-            if(gamepad1.left_trigger>.5){backSer.setPosition(.75);}
-            if(gamepad1.right_trigger>.5){backSer.setPosition(.5);}
+            if(gamepad1.left_trigger>.5){backSer.setPosition(.75); wait(1000); backSer.setPosition(.5);}
+            if(gamepad1.right_trigger>.5){backSer.setPosition(.5);wait(1000); backSer.setPosition(.75);}
 
             //folding mtoer
             if (gamepad1.dpad_up){folMot.setPower(0.5);}
@@ -102,8 +102,8 @@ public class Tony_Drive extends LinearOpMode{
             if(gamepad1.dpad_left){inR.setPower(0); inL.setPower(0);}
 
             //tnak drive
-            flWheel.setPower(gamepad1.left_stick_y);
-            blWheel.setPower(gamepad1.left_stick_y);
+            flWheel.setPower(-gamepad1.left_stick_y);
+            blWheel.setPower(-gamepad1.left_stick_y);
             frWheel.setPower(gamepad1.right_stick_y);
             brWheel.setPower(gamepad1.right_stick_y);
 

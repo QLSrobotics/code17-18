@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\William\\Developer\\AndroidApplication\\code17-18\\TeamCode\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+            "outputFile": "C:\\Users\\hima\\Documents\\robotics\\code\\code17-18\\TeamCode\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\William\\Developer\\AndroidApplication\\code17-18\\FtcRobotController\\build\\intermediates\\bundles\\debug\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+                    "source": "C:\\Users\\hima\\Documents\\robotics\\code\\code17-18\\FtcRobotController\\build\\intermediates\\bundles\\debug\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -31,10 +31,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\hima\\Documents\\robotics\\code\\code17-18\\TeamCode\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+            "outputFile": "C:\\Users\\William\\Developer\\AndroidApplication\\code17-18\\TeamCode\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hima\\Documents\\robotics\\code\\code17-18\\FtcRobotController\\build\\intermediates\\bundles\\debug\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+                    "source": "C:\\Users\\William\\Developer\\AndroidApplication\\code17-18\\FtcRobotController\\build\\intermediates\\bundles\\debug\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
