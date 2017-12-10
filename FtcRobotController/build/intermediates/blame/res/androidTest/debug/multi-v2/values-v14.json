@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "C:\\Users\\jrogosic\\Documents\\GitHub\\code17-18\\FtcRobotController\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/values-v14/values-v14.xml",
+                    "source": "C:\\Users\\jrogosic\\.gradle\\caches\\transforms-1\\files-1.1\\RobotCore-release.aar\\ad0cbb912a3ea67fc1a0df89d043e866\\res\\values-v14\\values-v14.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -17,10 +17,26 @@
             ]
         },
         {
-            "outputFile": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "C:\\Users\\hima\\Documents\\robotics\\code\\code17-18\\FtcRobotController\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d8dc36179305e01e19f6a582d6457ecc/res/values-v14/values-v14.xml",
+                    "source": "C:\\Users\\hima\\.gradle\\caches\\transforms-1\\files-1.1\\RobotCore-release.aar\\d8dc36179305e01e19f6a582d6457ecc\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\William\\Developer\\AndroidApplication\\code17-18\\FtcRobotController\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\William\\.gradle\\caches\\transforms-1\\files-1.1\\RobotCore-release.aar\\99c33863a69470d038ccc8a898ae18a7\\res\\values-v14\\values-v14.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
