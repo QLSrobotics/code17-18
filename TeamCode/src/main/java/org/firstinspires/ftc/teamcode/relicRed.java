@@ -49,7 +49,7 @@ public class relicRed extends LinearOpMode {
 
         clawColour = hardwareMap.servo.get("CC");
         clawFrontServo = hardwareMap.servo.get("CFS");
-
+        
         colSensBack = hardwareMap.colorSensor.get("CSB1");
         colSensFrnt = hardwareMap.colorSensor.get("CSF1");
 

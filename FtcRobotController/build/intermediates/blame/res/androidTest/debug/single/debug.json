@@ -1,19 +1,11 @@
 [
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_ic_launcher.png.flat",
-        "source": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address_spin_item.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/lynx_module_configure_address_spin_item.xml"
-    },
-    {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_icon_menu.png.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/828066e6c95d6726effeacc2870164a5/res/drawable/icon_menu.png"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_nxtstartupsound.wav.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/raw/nxtstartupsound.wav"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_device.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/digital_device.xml"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor_controller_banner.xml.flat",
@@ -24,24 +16,12 @@
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/legacy.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_servo.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/servo.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_config_wifi_direct.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/activity_config_wifi_direct.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_fw_update.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/activity_ftc_lynx_fw_update.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_banner_parent.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/banner_parent.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_black_border.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/95a989328e090eea2e0660eb488853d1/res/drawable/black_border.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_color_list_preference_line_item.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/layout/color_list_preference_line_item.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_outputs.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/analog_outputs.xml"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor.xml.flat",
@@ -52,12 +32,12 @@
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/pwms.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_pwms.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/pwms.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_ic_launcher.png.flat",
+        "source": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_launcher.png"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_rev_scoot.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/xml/rev_scoot.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_gray_line.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/gray_line.xml"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_fw_update.xml.flat",
@@ -68,68 +48,32 @@
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/layout/feedback.xml"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_color_fragment_shader.glsl.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/raw/color_fragment_shader.glsl"
-    },
-    {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_banner_parent.xml.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/banner_parent.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_warningmessage.wav.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/raw/warningmessage.wav"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_wifi_remembered_groups.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/activity_ftc_wifi_remembered_groups.xml"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_address_update.xml.flat",
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/activity_ftc_lynx_address_update.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_i2c_device.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/i2c_device.xml"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/lynx_module_configure_address.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/lynx_module.xml"
-    },
-    {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_chimedisconnect.wav.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/raw/chimedisconnect.wav"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_button_shape.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/drawable-hdpi-v4/button_shape.xml"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_swap_usb_devices.xml.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/activity_swap_usb_devices.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_outputs.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/analog_outputs.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_ic_launcher.png.flat",
+        "source": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor_controller_banner.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/motor_controller_banner.xml"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_load.xml.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/activity_load.xml"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_red_line.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/red_line.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_icon_menu.png.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/f08de3304fb52bca0f7cac147eb3ec2c/res/drawable/icon_menu.png"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_pwm_device.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/pwm_device.xml"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_address_update.xml.flat",
@@ -152,16 +96,24 @@
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/pwm_device.xml"
     },
     {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_menu_server.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/a5335406b659683f412225253c69e5b6/res/menu/menu_server.xml"
+    },
+    {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_item_list_parent.xml.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/item_list_parent.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_about.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/activity_about.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_ic_launcher.png.flat",
+        "source": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_ic_launcher.png.flat",
         "source": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_advanced_rc_settings.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/xml/advanced_rc_settings.xml"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_device.xml.flat",
@@ -172,18 +124,6 @@
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/95a989328e090eea2e0660eb488853d1/res/layout/activity_programming_mode.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_ic_launcher.png.flat",
-        "source": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_button_shape.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/drawable-hdpi-v4/button_shape.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_main_menu.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/f08de3304fb52bca0f7cac147eb3ec2c/res/menu/main_menu.xml"
-    },
-    {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_k9legacybot.xml.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/xml/k9legacybot.xml"
     },
@@ -192,52 +132,44 @@
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/layout/loading_indicator_overlay.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_ic_launcher.png.flat",
-        "source": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_launcher.png"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_input_device.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/analog_input_device.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/lynx_module_configure_address.xml"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_black_border.xml.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/8be1446f0da48a02ad1eb305ae7e8085/res/drawable/black_border.xml"
     },
     {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_ic_launcher.png.flat",
+        "source": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_pwm_device.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/pwm_device.xml"
+    },
+    {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address.xml.flat",
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/lynx_module_configure_address.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_template_info.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/template_info.xml"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_gray_line.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/gray_line.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_matrix_devices.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/matrix_devices.xml"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_generic_settings.xml.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/activity_generic_settings.xml"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_configure_from_template.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/activity_configure_from_template.xml"
-    },
-    {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_cube_mesh_vertex_shader.glsl.flat",
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/raw/cube_mesh_vertex_shader.glsl"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_header.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/header.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_color_fragment_shader.glsl.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/868b786b2cb5a8d20a4d973c6cb0e5fe/res/raw/color_fragment_shader.glsl"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/motor.xml"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_device.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/digital_device.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_inspection.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/ba3dcfe0c062d05a48f42a2e8b75eec5/res/layout/activity_inspection.xml"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_i2c_device.xml.flat",
@@ -248,16 +180,12 @@
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/servo.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_texture_vertex_shader.glsl.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d8dc36179305e01e19f6a582d6457ecc/res/raw/texture_vertex_shader.glsl"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/lynx_module.xml"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_device_interface_module.xml.flat",
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/device_interface_module.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_legacy.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/legacy.xml"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_device_interface_module.xml.flat",
@@ -268,72 +196,52 @@
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/servo_list.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_simple_vertex_shader.glsl.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d8dc36179305e01e19f6a582d6457ecc/res/raw/simple_vertex_shader.glsl"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_servo.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/servo.xml"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_errormessage.wav.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/raw/errormessage.wav"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_device_filter.xml.flat",
+        "source": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/xml/device_filter.xml"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_file_info.xml.flat",
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/file_info.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor_controller_banner.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/motor_controller_banner.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_address_update.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/activity_ftc_lynx_address_update.xml"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_icon_robotcontroller.png.flat",
-        "source": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_robotcontroller.png"
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor_controller_banner.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/motor_controller_banner.xml"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_matrices.xml.flat",
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/matrices.xml"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_chimeconnect.wav.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/raw/chimeconnect.wav"
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_icon_robotcontroller.png.flat",
+        "source": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_robotcontroller.png"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_maxmodules.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/xml/maxmodules.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_feedback_shape_orange.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/drawable/feedback_shape_orange.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_item_list_parent.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/item_list_parent.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_cube_mesh_fragment_shader.glsl.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/raw/cube_mesh_fragment_shader.glsl"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_pushbotsens.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/xml/pushbotsens.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_view_logs.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/activity_view_logs.xml"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module.xml.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/lynx_module.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_wifi_remembered_groups.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/activity_ftc_wifi_remembered_groups.xml"
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_pushbotsens.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/xml/pushbotsens.xml"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_simple_device.xml.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/simple_device.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_cube_mesh_fragment_shader.glsl.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d8dc36179305e01e19f6a582d6457ecc/res/raw/cube_mesh_fragment_shader.glsl"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_icon_robotcontroller.png.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/828066e6c95d6726effeacc2870164a5/res/drawable/icon_robotcontroller.png"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address_spin_item.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/lynx_module_configure_address_spin_item.xml"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_controller.xml.flat",
@@ -348,20 +256,8 @@
         "source": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/xml/device_filter.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_feedback_shape_orange.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d8dc36179305e01e19f6a582d6457ecc/res/drawable/feedback_shape_orange.xml"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_device_lynx.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/digital_device_lynx.xml"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_usb_device.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/lynx_usb_device.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_red_line.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/red_line.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_color_list_preference_line_item.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/868b786b2cb5a8d20a4d973c6cb0e5fe/res/layout/color_list_preference_line_item.xml"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_matrix_devices.xml.flat",
@@ -374,6 +270,14 @@
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_button_shape.xml.flat",
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/drawable/button_shape.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_button_shape.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/drawable/button_shape.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_output_device.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/analog_output_device.xml"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor_list.xml.flat",
@@ -400,16 +304,16 @@
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/activity_config_wifi_direct.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_blocks.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/8be1446f0da48a02ad1eb305ae7e8085/res/layout/activity_blocks.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_chimeconnect.wav.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/raw/chimeconnect.wav"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_servo_controller_banner.xml.flat",
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/servo_controller_banner.xml"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_texture_vertex_shader.glsl.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/raw/texture_vertex_shader.glsl"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_i2c_device.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/i2c_device.xml"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_about.xml.flat",
@@ -424,24 +328,8 @@
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/button_list.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_loading_indicator_overlay.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d8dc36179305e01e19f6a582d6457ecc/res/layout/loading_indicator_overlay.xml"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_k9usbbot.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/xml/k9usbbot.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_button_list.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/button_list.xml"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_devices.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/digital_devices.xml"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_program_and_manage.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/activity_program_and_manage.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_cube_mesh_vertex_shader.glsl.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/868b786b2cb5a8d20a4d973c6cb0e5fe/res/raw/cube_mesh_vertex_shader.glsl"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_app_settings.xml.flat",
@@ -450,6 +338,554 @@
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_info_button.xml.flat",
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/info_button.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_template_info.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/template_info.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_device_lynx.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/digital_device_lynx.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_controller.xml.flat",
+        "source": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/layout/activity_ftc_controller.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_servo_controller_banner.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/servo_controller_banner.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_feedback.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/868b786b2cb5a8d20a4d973c6cb0e5fe/res/layout/feedback.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_menu_server.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/95a989328e090eea2e0660eb488853d1/res/menu/menu_server.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_about.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/activity_about.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_texture_fragment_shader.glsl.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/raw/texture_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_k9usbbot.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/xml/k9usbbot.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_banner_parent.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/banner_parent.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_color_list_preference_line_item.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d8dc36179305e01e19f6a582d6457ecc/res/layout/color_list_preference_line_item.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_wifi_remembered_groups.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/activity_ftc_wifi_remembered_groups.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_pushbot.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/xml/pushbot.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_ic_launcher.png.flat",
+        "source": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_advanced_rc_settings.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/xml/advanced_rc_settings.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_k9legacybot.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/xml/k9legacybot.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address_spin_item.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/lynx_module_configure_address_spin_item.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_nxtstartupsound.wav.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/raw/nxtstartupsound.wav"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_program_and_manage.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/activity_program_and_manage.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_k9usbbot.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/xml/k9usbbot.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_programming_mode.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/8be1446f0da48a02ad1eb305ae7e8085/res/layout/activity_programming_mode.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_i2cs.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/i2cs.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_port_attached_row.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/port_attached_row.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_pushbot.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/xml/pushbot.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_port_attached_row.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/port_attached_row.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_wifi_channel_selector.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/activity_ftc_wifi_channel_selector.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_swap_usb_devices.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/activity_swap_usb_devices.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_servo_list.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/servo_list.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_generic_settings.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/activity_generic_settings.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_legacy.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/legacy.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_inputs.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/analog_inputs.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_info_button.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/info_button.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_configuration.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/activity_ftc_configuration.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_generic_settings.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/activity_generic_settings.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_advanced_rc_settings.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/xml/advanced_rc_settings.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_warningmessage.wav.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/raw/warningmessage.wav"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_configuration.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/activity_ftc_configuration.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_feedback.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d8dc36179305e01e19f6a582d6457ecc/res/layout/feedback.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_output_device.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/analog_output_device.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_ftc_robot_controller.xml.flat",
+        "source": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/menu/ftc_robot_controller.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_programming_mode.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/a5335406b659683f412225253c69e5b6/res/layout/activity_programming_mode.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_gray_line.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/gray_line.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_outputs.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/analog_outputs.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_inspection.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/828066e6c95d6726effeacc2870164a5/res/layout/activity_inspection.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_port_attached_row.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/port_attached_row.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_pushbot.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/xml/pushbot.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_template_info.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/template_info.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_inputs.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/analog_inputs.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_matrix_devices.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/matrix_devices.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_squarebot.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/xml/squarebot.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_configuration.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/activity_ftc_configuration.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_device_filter.xml.flat",
+        "source": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/xml/device_filter.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_i2cs.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/i2cs.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_rev_scoot.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/xml/rev_scoot.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_servo_list.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/servo_list.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_chimeconnect.wav.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/raw/chimeconnect.wav"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_program_and_manage.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/activity_program_and_manage.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_ic_launcher.png.flat",
+        "source": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address_spin_item.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/lynx_module_configure_address_spin_item.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_nxtstartupsound.wav.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/raw/nxtstartupsound.wav"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_servo.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/servo.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_fw_update.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/activity_ftc_lynx_fw_update.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_banner_parent.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/banner_parent.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_black_border.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/95a989328e090eea2e0660eb488853d1/res/drawable/black_border.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_color_list_preference_line_item.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/layout/color_list_preference_line_item.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_black_border.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/a5335406b659683f412225253c69e5b6/res/drawable/black_border.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_pwms.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/pwms.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_rev_scoot.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/xml/rev_scoot.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_maxmodules.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/xml/maxmodules.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_color_fragment_shader.glsl.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/raw/color_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_wifi_remembered_groups.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/activity_ftc_wifi_remembered_groups.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_warningmessage.wav.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/raw/warningmessage.wav"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_i2c_device.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/i2c_device.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_icon_robotcontroller.png.flat",
+        "source": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_robotcontroller.png"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_simple_device.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/simple_device.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/lynx_module_configure_address.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/lynx_module.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_button_shape.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/drawable-hdpi-v4/button_shape.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/motor.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_texture_vertex_shader.glsl.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/868b786b2cb5a8d20a4d973c6cb0e5fe/res/raw/texture_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_outputs.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/analog_outputs.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_red_line.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/red_line.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_chimedisconnect.wav.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/raw/chimedisconnect.wav"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_button_shape.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/drawable-hdpi-v4/button_shape.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_pwm_device.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/pwm_device.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_icon_menu.png.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/f08de3304fb52bca0f7cac147eb3ec2c/res/drawable/icon_menu.png"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_item_list_parent.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/item_list_parent.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_cube_mesh_fragment_shader.glsl.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/868b786b2cb5a8d20a4d973c6cb0e5fe/res/raw/cube_mesh_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_about.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/activity_about.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_texture_fragment_shader.glsl.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/868b786b2cb5a8d20a4d973c6cb0e5fe/res/raw/texture_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_ic_launcher.png.flat",
+        "source": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_feedback_shape_orange.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/868b786b2cb5a8d20a4d973c6cb0e5fe/res/drawable/feedback_shape_orange.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_button_shape.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/drawable-hdpi-v4/button_shape.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_main_menu.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/f08de3304fb52bca0f7cac147eb3ec2c/res/menu/main_menu.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_button_list.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/button_list.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_ftc_robot_controller.xml.flat",
+        "source": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/menu/ftc_robot_controller.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_load.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/activity_load.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_template_info.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/template_info.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_inputs.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/analog_inputs.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_gray_line.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/gray_line.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_matrix_devices.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/matrix_devices.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_configure_from_template.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/activity_configure_from_template.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_header.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/header.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_squarebot.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/xml/squarebot.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/motor.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_device.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/digital_device.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_devices.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/digital_devices.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_texture_vertex_shader.glsl.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d8dc36179305e01e19f6a582d6457ecc/res/raw/texture_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_legacy.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/legacy.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_simple_vertex_shader.glsl.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d8dc36179305e01e19f6a582d6457ecc/res/raw/simple_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_errormessage.wav.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/raw/errormessage.wav"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_icon_robotcontroller.png.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/ba3dcfe0c062d05a48f42a2e8b75eec5/res/drawable/icon_robotcontroller.png"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_chimeconnect.wav.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/raw/chimeconnect.wav"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_maxmodules.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/xml/maxmodules.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_swap_usb_devices.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/activity_swap_usb_devices.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_feedback_shape_orange.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/drawable/feedback_shape_orange.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_item_list_parent.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/item_list_parent.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_wifi_remembered_groups.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/activity_ftc_wifi_remembered_groups.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_cube_mesh_fragment_shader.glsl.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/raw/cube_mesh_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_cube_mesh_fragment_shader.glsl.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d8dc36179305e01e19f6a582d6457ecc/res/raw/cube_mesh_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_icon_robotcontroller.png.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/828066e6c95d6726effeacc2870164a5/res/drawable/icon_robotcontroller.png"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_feedback_shape_orange.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d8dc36179305e01e19f6a582d6457ecc/res/drawable/feedback_shape_orange.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_ic_launcher.png.flat",
+        "source": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_device_lynx.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/digital_device_lynx.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_usb_device.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/lynx_usb_device.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_red_line.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/red_line.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_red_line.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/red_line.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_blocks.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/8be1446f0da48a02ad1eb305ae7e8085/res/layout/activity_blocks.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_matrices.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/matrices.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_texture_vertex_shader.glsl.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/raw/texture_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_loading_indicator_overlay.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d8dc36179305e01e19f6a582d6457ecc/res/layout/loading_indicator_overlay.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_k9usbbot.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/xml/k9usbbot.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_file_info.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/file_info.xml"
+    },
+    {
+        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_button_list.xml.flat",
+        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/button_list.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_fw_update.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/activity_ftc_lynx_fw_update.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_devices.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/digital_devices.xml"
+    },
+    {
+        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_program_and_manage.xml.flat",
+        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/activity_program_and_manage.xml"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_config_wifi_direct.xml.flat",
@@ -464,24 +900,12 @@
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/header.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_template_info.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/template_info.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_device_lynx.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/digital_device_lynx.xml"
-    },
-    {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_cube_mesh_vertex_shader.glsl.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d8dc36179305e01e19f6a582d6457ecc/res/raw/cube_mesh_vertex_shader.glsl"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_servo_controller_banner.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/servo_controller_banner.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_menu_server.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/95a989328e090eea2e0660eb488853d1/res/menu/menu_server.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor_list.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/motor_list.xml"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_ftc_robot_controller.xml.flat",
@@ -492,24 +916,12 @@
         "source": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_texture_fragment_shader.glsl.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/raw/texture_fragment_shader.glsl"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_k9usbbot.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/xml/k9usbbot.xml"
-    },
-    {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_nxtstartupsound.wav.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/raw/nxtstartupsound.wav"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_icon_menu.png.flat",
         "source": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_menu.png"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_color_list_preference_line_item.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d8dc36179305e01e19f6a582d6457ecc/res/layout/color_list_preference_line_item.xml"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_view_logs.xml.flat",
@@ -520,14 +932,6 @@
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/info_button.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_pushbot.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/xml/pushbot.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_ic_launcher.png.flat",
-        "source": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_launcher.png"
-    },
-    {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_simple_vertex_shader.glsl.flat",
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99c33863a69470d038ccc8a898ae18a7/res/raw/simple_vertex_shader.glsl"
     },
@@ -536,52 +940,28 @@
         "source": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ic_launcher.png"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_advanced_rc_settings.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/xml/advanced_rc_settings.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_blocks.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/a5335406b659683f412225253c69e5b6/res/layout/activity_blocks.xml"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_ic_launcher.png.flat",
         "source": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ic_launcher.png"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address_spin_item.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/lynx_module_configure_address_spin_item.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_program_and_manage.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/activity_program_and_manage.xml"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_programming_mode.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/8be1446f0da48a02ad1eb305ae7e8085/res/layout/activity_programming_mode.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_main_menu.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/ba3dcfe0c062d05a48f42a2e8b75eec5/res/menu/main_menu.xml"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_icon_robotcontroller.png.flat",
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/f08de3304fb52bca0f7cac147eb3ec2c/res/drawable/icon_robotcontroller.png"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_i2cs.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/i2cs.xml"
-    },
-    {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor_list.xml.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/motor_list.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_port_attached_row.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/port_attached_row.xml"
-    },
-    {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_inspection.xml.flat",
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/f08de3304fb52bca0f7cac147eb3ec2c/res/layout/activity_inspection.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_wifi_channel_selector.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/activity_ftc_wifi_channel_selector.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_swap_usb_devices.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/activity_swap_usb_devices.xml"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_squarebot.xml.flat",
@@ -600,12 +980,12 @@
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/digital_devices.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_servo_list.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/servo_list.xml"
-    },
-    {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_load.xml.flat",
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/activity_load.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_errormessage.wav.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/raw/errormessage.wav"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_button_shape.xml.flat",
@@ -616,16 +996,20 @@
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/matrices.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_inputs.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/analog_inputs.xml"
-    },
-    {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_blocks.xml.flat",
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/95a989328e090eea2e0660eb488853d1/res/layout/activity_blocks.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_configuration.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/activity_ftc_configuration.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_app_settings.xml.flat",
+        "source": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/xml/app_settings.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_wifi_channel_selector.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/activity_ftc_wifi_channel_selector.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_device_lynx.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/digital_device_lynx.xml"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_menu_server.xml.flat",
@@ -636,56 +1020,52 @@
         "source": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_menu.png"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_generic_settings.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/activity_generic_settings.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_advanced_rc_settings.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/xml/advanced_rc_settings.xml"
-    },
-    {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_usb_device.xml.flat",
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/lynx_usb_device.xml"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_warningmessage.wav.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/raw/warningmessage.wav"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_app_settings.xml.flat",
         "source": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/xml/app_settings.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_feedback.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d8dc36179305e01e19f6a582d6457ecc/res/layout/feedback.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_pwms.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/pwms.xml"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_output_device.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/analog_output_device.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_loading_indicator_overlay.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/868b786b2cb5a8d20a4d973c6cb0e5fe/res/layout/loading_indicator_overlay.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_pushbotsens.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/xml/pushbotsens.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_icon_menu.png.flat",
+        "source": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_menu.png"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_header.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/header.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_device_interface_module.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/device_interface_module.xml"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_file_info.xml.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/layout/file_info.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_ftc_robot_controller.xml.flat",
-        "source": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/menu/ftc_robot_controller.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_icon_menu.png.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/ba3dcfe0c062d05a48f42a2e8b75eec5/res/drawable/icon_menu.png"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_errormessage.wav.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/raw/errormessage.wav"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_gray_line.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/gray_line.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_outputs.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/analog_outputs.xml"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_inspection.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/828066e6c95d6726effeacc2870164a5/res/layout/activity_inspection.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_servo_controller_banner.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/servo_controller_banner.xml"
     },
     {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_maxmodules.xml.flat",
@@ -696,43 +1076,31 @@
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/xml/k9legacybot.xml"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_port_attached_row.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/port_attached_row.xml"
-    },
-    {
         "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_input_device.xml.flat",
         "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/analog_input_device.xml"
+    },
+    {
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_warningmessage.wav.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/raw/warningmessage.wav"
     },
     {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_main_menu.xml.flat",
         "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/828066e6c95d6726effeacc2870164a5/res/menu/main_menu.xml"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_pushbot.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/xml/pushbot.xml"
-    },
-    {
         "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_icon_robotcontroller.png.flat",
         "source": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_robotcontroller.png"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_inputs.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/analog_inputs.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_usb_device.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/lynx_usb_device.xml"
     },
     {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_squarebot.xml.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/xml/squarebot.xml"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_simple_vertex_shader.glsl.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/868b786b2cb5a8d20a4d973c6cb0e5fe/res/raw/simple_vertex_shader.glsl"
     },
     {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_configuration.xml.flat",
-        "source": "/Users/William/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/24078cca751850987a5a77fdf952e0b8/res/layout/activity_ftc_configuration.xml"
-    },
-    {
-        "merged": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_device_filter.xml.flat",
-        "source": "/Users/William/Developer/AndroidApplication/code17-18/FtcRobotController/build/intermediates/bundles/debug/res/xml/device_filter.xml"
-    },
-    {
-        "merged": "/Users/hima/Documents/robotics/code/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_chimeconnect.wav.flat",
-        "source": "/Users/hima/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/18616bbe506980c9c117e8ce9721bafa/res/raw/chimeconnect.wav"
+        "merged": "/Users/aliva/Documents/GitHub/code17-18/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_configure_from_template.xml.flat",
+        "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/614a955c5ce8af5551143beb3f218b07/res/layout/activity_configure_from_template.xml"
     }
 ]

@@ -31,6 +31,22 @@
                     }
                 }
             ]
+        },
+        {
+            "outputFile": "/Users/aliva/Documents/GitHub/code17-18/TeamCode/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v14/values-v14.xml",
+            "map": [
+                {
+                    "source": "/Users/aliva/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/868b786b2cb5a8d20a4d973c6cb0e5fe/res/values-v14/values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
         }
     ]
 }
