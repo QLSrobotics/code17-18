@@ -91,6 +91,21 @@ public class VuforiaCameraTest extends LinearOpMode {
                 telemetry.addData("VuMark", "not visible");
             }
 
+            switch (vuMark) {
+                case LEFT:
+                    //LEFT case
+                    break;
+                case CENTER:
+                    //CENTER case
+                    break;
+                case RIGHT:
+                    //RIGHT case
+                    break;
+                default:
+                    //nothing detected
+                    break;
+            }
+
             telemetry.update();
         }
     }
