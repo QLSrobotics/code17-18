@@ -1,8 +1,5 @@
 package org.firstinspires.ftc.teamcode;
 
-import android.graphics.Color;
-
-import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.ColorSensor;
@@ -10,20 +7,25 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-@Autonomous(name="relicBlue", group="Team11920")
+/**
+ * Created by hima on 11/3/17.
+ */
+
+@TeleOp(name="relicBlue", group="Team11920")
+
 
 public class relicBlue extends LinearOpMode {
 
-    private ColorSensor colorSensorBack;    // Hardware Device Object
+    ColorSensor colorSensor;    // Hardware Device Object
+    private ElapsedTime runtime = new ElapsedTime();
     private DcMotor leftFront;
     private DcMotor rightFront;
     private DcMotor leftBack;
     private DcMotor rightBack;
     private Servo clawColour;
     private Servo clawFrontServo;
-    private final double COLOUR_THRESHOLD = 100;  //color boundry between blue and red
-    private String ballColour = "";
-
+    private double colourThreshold = 100;  //color boundry between blue and red
+    private boolean detectingColour = true;
     @Override
     public void runOpMode() {
 
@@ -37,101 +39,49 @@ public class relicBlue extends LinearOpMode {
 
         float hsvValues[] = {0F,0F,0F};
         final float values[] = hsvValues;
-        colorSensorBack = hardwareMap.get(ColorSensor.class, "sensor_color_back");
+        colorSensor = hardwareMap.get(ColorSensor.class, "sensor_color_front");
         waitForStart();
         while (opModeIsActive()) {
 
-            clawFrontServo.setPosition(90);
+            clawFrontServo.setPosition(-50);
 
-            sleep(1000);
+            //williams stuff
 
-            //lower claw arm
-            clawColour.setPosition(180);
+            driveStraight(-1,5);
+            turn(-1,2);
 
-            sleep(1000);
-            // convert the RGB values to HSV values.
-            Color.RGBToHSV(colorSensorBack.red() * 8, colorSensorBack.green() * 8, colorSensorBack.blue() * 8, hsvValues);
-
-            //reading color
-            if ((hsvValues[0] > COLOUR_THRESHOLD)) {
-                ballColour = "BLUE";
-            }
-            else if ((hsvValues[0] <= COLOUR_THRESHOLD && hsvValues[0] > 0)) {
-                ballColour = "RED";
-            }
-            sleep(1000);
-            //knocking ball
-            switch (ballColour) {
-                case "RED":
-                    moveStraight(-0.5, 300);
-                    sleep(1000);
-                    clawColour.setPosition(0);
-                    sleep(1000);
-                    moveStraight(-0.5,1100);
-                    sleep(1000);
-                    turn(0.5,1200);
-                    sleep(1000);
-                    moveStraight(0.45,400);
-                    sleep(1000);
-                    break;
-                case "BLUE":
-                    moveStraight(0.5, 300);
-                    sleep(1000);
-                    clawColour.setPosition(0);
-                    sleep(1000);
-                    moveStraight(-0.5, 1700);
-                    sleep(1000);
-                    turn(0.5, 1200);
-                    sleep(1000);
-                    moveStraight(0.45, 400);
-                    sleep(1000);
-                    break;
-                default:
-                    clawColour.setPosition(0);
-                    sleep(1000);
-                    moveStraight(-0.5, 1400);
-                    sleep(1000);
-                    turn(0.5, 1200);
-                    sleep(1000);
-                    moveStraight(0.45, 400);
-                    sleep(1000);
-                    break;
-            }
-
-            //clear container
-            ballColour = "";
-            //program terminated
-            sleep(1000);
-
-            clawFrontServo.setPosition(-90);
+            clawFrontServo.setPosition(40);
 
             telemetry.update();
             idle();
-            break;
         }
     }
-    public void moveStraight(double power, int time) {
-        leftFront.setPower(power);
-        leftBack.setPower(power);
-        rightFront.setPower(-power);
-        rightBack.setPower(-power);
+
+    private void driveStraight(double speed, int time) {
+        rightFront.setPower(-speed);
+        rightBack.setPower(-speed);
+        leftFront.setPower(speed);
+        leftBack.setPower(speed);
         sleep(time);
-        leftFront.setPower(0);
-        leftBack.setPower(0);
         rightFront.setPower(0);
         rightBack.setPower(0);
+        leftFront.setPower(0);
+        leftBack.setPower(0);
+
     }
-    //positive power turning left
-    public void turn(double power, int time) {
-        leftFront.setPower(power);
-        leftBack.setPower(power);
-        rightFront.setPower(power);
-        rightBack.setPower(power);
+
+    //positive speed for left turn
+    //negative speed for right turn
+    private void turn(double speed, int time) {
+        rightFront.setPower(speed);
+        rightBack.setPower(speed);
+        leftFront.setPower(speed);
+        leftBack.setPower(speed);
         sleep(time);
-        leftFront.setPower(0);
-        leftBack.setPower(0);
         rightFront.setPower(0);
         rightBack.setPower(0);
+        leftFront.setPower(0);
+        leftBack.setPower(0);
     }
     public void sleep(int i){
         long initial_time = System.currentTimeMillis();

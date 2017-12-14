@@ -6,6 +6,9 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
+/**
+ * Created by William on 9/19/17.
+ */
 @TeleOp(name="DriveTrain_V2", group="Team11920")
 //@Disabled
 public class DriveTrain_V2 extends LinearOpMode{
@@ -59,16 +62,22 @@ public class DriveTrain_V2 extends LinearOpMode{
                 clawFront.setPower(0);
             }
             if (gamepad1.a) {
-                clawFrontServo.setPosition(-90);
+                clawFrontServo.setPosition(0);
             }
             if (gamepad1.b) {
-                clawFrontServo.setPosition(90);
+                clawFrontServo.setPosition(.5);
+            }
+            if(gamepad1.x){
+                clawFrontServo.setPosition(.9);
+            }
+            if(gamepad1.y){
+                clawFrontServo.setPosition(.1);
             }
             if (gamepad1.left_bumper) {
-                clawColour.setPosition(180);
+                clawColour.setPosition(.9);
             }
             if (gamepad1.right_bumper) {
-                clawColour.setPosition(0);
+                clawColour.setPosition(.1);
             }
 
             //updating robot status and display on driver station

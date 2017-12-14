@@ -43,19 +43,18 @@ import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
 @Autonomous(name = "AutoBall_BLUE", group = "Team11920")
-@Disabled
+//@Disabled
 public class AutoBall_BLUE extends LinearOpMode {
 
-  private ColorSensor colorSensorBack;
+  ColorSensor colorSensor;    // Hardware Device Object
   private ElapsedTime runtime = new ElapsedTime();
   private DcMotor leftFront;
   private DcMotor rightFront;
   private DcMotor leftBack;
   private DcMotor rightBack;
   private Servo clawColour;
-  private Servo clawFrontServo;
   private double colourThreshold = 100; //color boundry between blue and red
-  private String ballColour = "";
+  private boolean detectingColour = true;
 
   @Override
   public void runOpMode() {
@@ -66,46 +65,30 @@ public class AutoBall_BLUE extends LinearOpMode {
     leftBack = hardwareMap.dcMotor.get("LB");
     rightBack = hardwareMap.dcMotor.get("RB");
     clawColour = hardwareMap.servo.get("CC");
-    clawFrontServo = hardwareMap.servo.get("CFS");
 
     float hsvValues[] = {0F,0F,0F};
     final float values[] = hsvValues;
-    colorSensorBack = hardwareMap.get(ColorSensor.class, "sensor_color_back");
+    colorSensor = hardwareMap.get(ColorSensor.class, "sensor_color_front");
     waitForStart();
 
     while (opModeIsActive()) {
 
       // convert the RGB values to HSV values.
-      Color.RGBToHSV(colorSensorBack.red() * 8, colorSensorBack.green() * 8, colorSensorBack.blue() * 8, hsvValues);
+      Color.RGBToHSV(colorSensor.red() * 8, colorSensor.green() * 8, colorSensor.blue() * 8, hsvValues);
 
-      //lower servo arm
-      clawColour.setPosition(120);
+      clawColour.setPosition(110);
       sleep(700);
-
-      //reading color
-      if ((hsvValues[0] > colourThreshold + 10)) {
-          ballColour = "BLUE";
+      while (detectingColour) {
+        if ((hsvValues[0] > colourThreshold + 10)) {
+          driveStraight(-1, 500);
+        }
+        else if ((hsvValues[0] <= colourThreshold - 10 && hsvValues[0] > 0)) {
+          driveStraight(1, 500);
+        }
+        detectingColour = false;
       }
-      else if ((hsvValues[0] <= colourThreshold - 10 && hsvValues[0] > 0)) {
-          ballColour = "RED";
-      }
-
-      //knocking ball
-      switch (ballColour) {
-        case "RED":
-          driveStraight(-1, 300);
-          break;
-        case "BLUE":
-          driveStraight(1, 300);
-          break;
-        default:
-          break;
-      }
-
-      //clear container
-      ballColour = "";
       //program terminated
-      clawColour.setPosition(-120);
+      clawColour.setPosition(90);
 
       telemetry.update();
       idle();

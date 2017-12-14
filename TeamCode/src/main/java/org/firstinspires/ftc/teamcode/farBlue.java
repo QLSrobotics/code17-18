@@ -1,8 +1,5 @@
 package org.firstinspires.ftc.teamcode;
 
-import android.graphics.Color;
-
-import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.ColorSensor;
@@ -10,20 +7,33 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-@Autonomous(name="farBlue", group="Team11920")
+/**
+ * Created by hima on 11/3/17.
+ */
+
+@TeleOp(name="farBlue", group="Team11920")
+
 
 public class farBlue extends LinearOpMode {
 
-    private ColorSensor colorSensorBack;    // Hardware Device Object
+    ColorSensor colorSensor;    // Hardware Device Object
+    private ElapsedTime runtime = new ElapsedTime();
     private DcMotor leftFront;
     private DcMotor rightFront;
     private DcMotor leftBack;
     private DcMotor rightBack;
     private Servo clawColour;
     private Servo clawFrontServo;
-    private final double COLOUR_THRESHOLD = 100;  //color boundry between blue and red
-    private String ballColour = "";
+    ColorSensor colSensFrnt;
+    ColorSensor colSensBack;
 
+    int blue = 60;
+    int red = 60;
+    int minVal = 20;
+    String frontBallCol;
+
+    private double colourThreshold = 100;  //color boundry between blue and red
+    private boolean detectingColour = true;
     @Override
     public void runOpMode() {
 
@@ -37,106 +47,116 @@ public class farBlue extends LinearOpMode {
 
         float hsvValues[] = {0F,0F,0F};
         final float values[] = hsvValues;
-        colorSensorBack = hardwareMap.get(ColorSensor.class, "sensor_color_back");
+        colorSensor = hardwareMap.get(ColorSensor.class, "sensor_color_front");
         waitForStart();
         while (opModeIsActive()) {
 
-            clawFrontServo.setPosition(90);
+            //checks if the ball is red
+            if(checkCol()== "red") {
 
-            sleep(1000);
+                //Moves forward to knock the red ball off
+                driveStraight(1, 2);
 
-            //lower arm
-            clawColour.setPosition(180);
-            sleep(1000);
+                //lifts the arm
+                clawColour.setPosition(40);
 
-            // convert the RGB values to HSV values.
-            Color.RGBToHSV(colorSensorBack.red() * 8, colorSensorBack.green() * 8, colorSensorBack.blue() * 8, hsvValues);
 
-            //reading color
-            if ((hsvValues[0] > COLOUR_THRESHOLD)) {
-                ballColour = "BLUE";
+                //turns left 180 to face towards the shelf
+                turn(1, 5);
+
+                //move forward to put the cube in the shelf
+                driveStraight(1, 2);
+
+                //opens claw
+                clawFrontServo.setPosition(50);
             }
-            else if ((hsvValues[0] <= COLOUR_THRESHOLD && hsvValues[0] > 0)) {
-                ballColour = "RED";
-            }
+            //if the ball is blue
+            else if (checkCol()== "blue") {
 
-            sleep(1000);
-            //knocking ball
-            switch (ballColour) {
-                case "RED":
-                    moveStraight(-0.5,300);
-                    sleep(1000);
-                    clawColour.setPosition(0);
-                    sleep(1000);
-                    moveStraight(-0.5,700);
-                    sleep(1000);
-                    turn(-0.5,2000);
-                    sleep(1000);
-                    moveStraight(0.45,600);
-                    sleep(1000);
-                    break;
-                case "BLUE":
-                    moveStraight(0.5,300);
-                    sleep(1000);
-                    clawColour.setPosition(0);
-                    sleep(1000);
-                    moveStraight(-0.5,1300);
-                    sleep(1000);
-                    turn(-0.5,2000);
-                    sleep(1000);
-                    moveStraight(0.45,600);
-                    sleep(1000);
-                    break;
-                default:
-                    clawColour.setPosition(0);
-                    sleep(1000);
-                    moveStraight(-0.5,850);
-                    sleep(1000);
-                    turn(-0.5,2000);
-                    sleep(1000);
-                    moveStraight(0.45,600);
-                    sleep(1000);
-                    break;
+                //move backward to knock the red ball
+                driveStraight(-1, 2);
+
+                //lift the arm up
+                clawColour.setPosition(40);
+
+
+                //turn left 180 facing the shelf
+                turn(1, 5);
+
+                //move forward to shelf
+                driveStraight(1, 5);
+
+
+                //open claw
+                clawFrontServo.setPosition(50);
             }
 
-            //clear container
-            ballColour = "";
-            //program terminated
-            sleep(1000);
+            else if (checkCol()== "undef"){
+                //lift the arm up
+                clawColour.setPosition(40);
 
-            clawFrontServo.setPosition(-90);
+
+                //turn left 180 facing the shelf
+                turn(1, 5);
+
+                //move forward to shelf
+                driveStraight(1, 5);
+
+
+                //open claw
+                clawFrontServo.setPosition(50);
+
+            }
 
             telemetry.update();
             idle();
-            break;
         }
     }
-    public void moveStraight(double power, int time) {
-        leftFront.setPower(power);
-        leftBack.setPower(power);
-        rightFront.setPower(-power);
-        rightBack.setPower(-power);
+
+    private void driveStraight(double speed, int time) {
+        rightFront.setPower(-speed);
+        rightBack.setPower(-speed);
+        leftFront.setPower(speed);
+        leftBack.setPower(speed);
         sleep(time);
-        leftFront.setPower(0);
-        leftBack.setPower(0);
         rightFront.setPower(0);
         rightBack.setPower(0);
+        leftFront.setPower(0);
+        leftBack.setPower(0);
+
     }
-    //positive power turning left
-    public void turn(double power, int time) {
-        leftFront.setPower(power);
-        leftBack.setPower(power);
-        rightFront.setPower(power);
-        rightBack.setPower(power);
+
+    //positive speed for left turn
+    //negative speed for right turn
+    private void turn(double speed, int time) {
+        rightFront.setPower(speed);
+        rightBack.setPower(speed);
+        leftFront.setPower(speed);
+        leftBack.setPower(speed);
         sleep(time);
-        leftFront.setPower(0);
-        leftBack.setPower(0);
         rightFront.setPower(0);
         rightBack.setPower(0);
+        leftFront.setPower(0);
+        leftBack.setPower(0);
     }
     public void sleep(int i){
         long initial_time = System.currentTimeMillis();
         while(System.currentTimeMillis()-initial_time <i) {
         }
     }
+
+    public String checkCol(){
+        if (colSensFrnt.red()>= red && colSensBack.blue()>= blue){
+            return "red";
+        }else if(colSensFrnt.blue()>= blue && colSensBack.red()>= red) {
+            return "blue";
+        }else if (colSensFrnt.red()>= red && colSensBack.blue()<= minVal) {
+            return "red";
+        }else if (colSensFrnt.blue()>= blue && colSensBack.red()<= minVal ){
+            return "blue";
+        }else{
+            return "undef";
+        }
+    }
+
 }
